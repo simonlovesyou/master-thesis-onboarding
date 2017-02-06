@@ -1,0 +1,34 @@
+{
+  "name": "master-thesis-onboarding",
+  "version": "0.0.1",
+  "description": "Master thesis of onboarding with mobile applications",
+  "main": "main.tex",
+  "scripts": {
+    "start": "open dist/main.pdf",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "latexmk -pdf -outdir=dist main.tex",
+    "clean": "rm -rf dist/"
+  },
+  "keywords": [
+    "master",
+    "thesis",
+    "master",
+    "thesis",
+    "onboarding",
+    "user",
+    "onboarding",
+    "user",
+    "ux",
+    "interaction",
+    "design",
+    "interaction",
+    "and",
+    "design",
+    "sign",
+    "up",
+    "ixd",
+    "id"
+  ],
+  "author": "Simon L. Johansson @simonlovesyou",
+  "license": "MIT"
+}
