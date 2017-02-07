@@ -3,11 +3,16 @@
   "version": "0.0.1",
   "description": "Master thesis of onboarding with mobile applications",
   "main": "main.tex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonlovesyou/master-thesis-onboarding.git"
+  },
   "scripts": {
     "start": "open dist/main.pdf",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "latexmk -pdf -outdir=dist main.tex",
-    "clean": "rm -rf dist/"
+    "clean": "rm -rf dist/",
+    "spellcheck": "aspell --lang=en --mode=tex check main.tex"
   },
   "keywords": [
     "master",
