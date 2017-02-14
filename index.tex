@@ -1,0 +1,128 @@
+\documentclass[a4paper,11pt,twoside]{report}
+
+%\usepackage{config/UmUThesis}           % Standard English
+\usepackage[noindent]{config/UmUThesis}  % Non indented English
+%\usepackage[se]{config/UmUThesis}       % Swedish
+
+\usepackage[latin1]{inputenc}
+\usepackage{courier}              % Nicer fonts are used. (not necessary)
+\usepackage{pslatex}              % Also nicer fonts. (not necessary)
+\usepackage{lmodern}              % Optional fonts. (not necessary)
+\usepackage{url}
+\usepackage[T1]{fontenc}
+
+\usepackage{subcaption}
+\usepackage{csquotes}
+
+\usepackage{adjustbox}
+\usepackage{graphicx}
+
+\usepackage{blindtext}
+\usepackage{amssymb}
+\usepackage{pifont}
+
+	\title{TITLE HERE}
+	\author{}
+	\supervisor{}
+	\supervisore{}
+	\examiner{Simon Johansson}
+	\semester{Spring 2017}
+	\course{Master Thesis, 30 hp}
+	\education{M.Sc. Interaction Technology and Design, 300 hp}
+
+\graphicspath{{resources/images/}}
+\pagestyle{empty}
+
+\begin{document}
+\maketitle
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------ACKNOWLEDGEMENTS---------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\section*{Acknowledgements}
+Thanks mum and dad \ding{164}
+\end{center}
+
+\clearpage
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%------------ABSTRACT-------------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\section*{Abstract}
+Abstract, abstract, abstract...
+% WRITE IN PRESENT TENSE!
+
+%%% 1. Explanation of the title of your thesis
+% The first function of the abstract is to further explain the title of your thesis. This allows readers of tour thesis to better determine if your thesis is interesting enough for them to read. A well-written abstract can encourage more people to consider your thesis important and, thus, to intend to read it.
+
+%%% 2. Short version of your thesis
+% The abstract serves as a short version for readers who don?t have the time to read the complete thesis. Often, managers and scientists read only the abstract and not the entire piece.
+
+%%% 3. Overview of your thesis
+% The abstract?s function is to serve as an overview of what readers can expect. This makes it easier for the reader to understand and to place in context the material in the thesis. A well-written abstract ensures that difficult material in your thesis is better understood.
+
+% - What is the problem? Indicate the objective, problem statement and research questions of your thesis. If you have used hypotheses in your thesis, indicate them here.
+% - What has been done? Briefly explain the method and approach of your research
+% - What has been discovered? Provide a summary of the most important results and your conclusion
+% - What do your findings mean? Summarize the key points from the discussion and present your recommendations
+
+%% Understand your abstract without going through the rest of your thesis.
+%% Include references when you use a source. You often do not use any references because you mainly write about your own findings and research
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - Maximum of A4 sheet of paper
+% - Placed after the preface and before the table of contents
+% - Written in present tense
+% - The objective is specified
+% - The problem statement is given
+% - The research questions or hypotheses are included
+% - The methodology and approach of your research are briefly explained
+% - A summary of the most important results are given
+% - The conclusion is given (the answer to your research question / problem statement).
+% - The results have been discussed and explained (discussion).
+% - Suggestions for follow-up research are presented
+% - Any recommendations are concisely discussed
+% - The abstract clarifies what the thesis is about
+
+\end{center}
+
+\setcounter{page}{1}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------TABLE OF CONTENTS----------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\tableofcontents
+
+\include{chapters/Introduction}
+
+\include{chapters/Literature_review}
+
+\include{chapters/Theoretical_framework}
+
+\include{chapters/Methodology}
+
+\include{chapters/Result}
+
+\include{chapters/Conclusion}
+
+\include{chapters/Discussion}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------------APPENDIX----------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{unsrt}
+
+\bibliography{library}
+
+\appendix
+
+\end{document}
