@@ -8,7 +8,6 @@
     "url": "git+https://github.com/simonlovesyou/master-thesis-onboarding.git"
   },
   "scripts": {
-    "start": "open dist/main.pdf",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "mkdir -p dist/chapters && latexmk -pdf -outdir=dist -auxdir=dist -bibtex index.tex",
     "clean": "rm -rf dist/",
