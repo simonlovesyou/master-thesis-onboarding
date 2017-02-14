@@ -10,8 +10,9 @@
   "scripts": {
     "start": "open dist/main.pdf",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "latexmk -pdf -outdir=dist main.tex",
+    "compile": "mkdir -p dist/chapters && latexmk -pdf -outdir=dist -auxdir=dist -bibtex index.tex",
     "clean": "rm -rf dist/",
+    "open": "open dist/index.pdf",
     "spellcheck": "aspell --lang=en --mode=tex check main.tex"
   },
   "keywords": [
