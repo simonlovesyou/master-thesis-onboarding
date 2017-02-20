@@ -1,8 +1,18 @@
+# New week
+09:31 | Monday, February 20th 2017
+
+## Log
+Today, according to my schedule, I'm supposed to have a company introduction the entire week. I need to write some more in my literature review and start planning a research method. Today, I would like to get done:
+ - User experience definition
+ - Learnability
+
+I think learnability is a large aspect in itself to cover, so I think this is a good scope for today.
+
 # Today I'm (supposed to be) done with the literature review
 Wednesday, February 15th 2017 - Friday, February 17th 2017
 
 ## Log
-I've had some setbacks since I started with my master thesis. I have found some research that is similar to mine which I now have to regard and fit into my body of research, which has been quite a challenge. Otherwise I have been writing the Introduction section to my paper, and I have been trying to write it how I would like to have it, and eventually support my claims with sources. I'm going to have to keep doing my literature review and gather more information in the coming week. 
+I've had some setbacks since I started with my master thesis. I have found some research that is similar to mine which I now have to regard and fit into my body of research, which has been quite a challenge. Otherwise I have been writing the Introduction section to my paper, and I have been trying to write it how I would like to have it, and eventually support my claims with sources. I'm going to have to keep doing my literature review and gather more information in the coming week.
 
 ## Commits
  * [`c3b25a`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/c3b25ae4f3f616e9ac322d12985ec15f45bd540a) - Fix spellcheck script
