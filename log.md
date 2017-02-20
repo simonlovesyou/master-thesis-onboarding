@@ -1,3 +1,13 @@
+# User test assistant
+17:30 | Monday, February 20th 2017
+
+## Log
+I didn't get as much done today with my report as I wanted. I did find some extra resources and papers on Learnability and I got to sort and label all the reports I have found so far. I did get to assist during a user test and take notes, which was a lot of fun! I have to remember to bring "The design of everyday things" tomorrow, so that I can define User experience properly.
+
+## Commits
+ * [`3ebfeb`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/3ebfeb2ad3129dc7587378ec776a3ce9ff40a0ed) - Add more references
+ * [`3e7646`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/3e7646fa7a6576d09fe904054bd8ead4d2c503f5) - Add plan for today
+
 # New week
 09:31 | Monday, February 20th 2017
 
