@@ -1,7 +1,6 @@
 # UX Definition
-16:48 | Tuesday, February 21st 2017
+**_16:48_** _| Tuesday, February 21st 2017_
 
-## Log
 It felt like I am kind of starting to understand the scope of the project (and it is huge). There are a lot of user experience concepts and aspects I have to cover to be able to create a theoretical framework of the study. To unload my brain I created a chart of the literature review and how things are connected. I might have to redo the chart tomorrow though, since I might use a UX definition which include 3 major aspects (and sub aspects) instead, which I believe will help me specify the field of onboarding.  
 
 ## Commits
@@ -11,15 +10,13 @@ It felt like I am kind of starting to understand the scope of the project (and i
  * [`298714`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/298714208ad89d2e3bc9ccad53946a136705928a) - Add log entry
 
 # More literature review please
-09:31 | Tuesday, February 21st 2017
+**_09:31_** _| Tuesday, February 21st 2017_
 
-## Log
 Today I would like to be able to do some more literature review and be able to specify my methodology even further.
 
 # User test assistant
-17:30 | Monday, February 20th 2017
+**_17:30_** _| Monday, February 20th 2017_
 
-## Log
 I didn't get as much done today with my report as I wanted. I did find some extra resources and papers on Learnability and I got to sort and label all the reports I have found so far. I did get to assist during a user test and take notes, which was a lot of fun! I have to remember to bring "The design of everyday things" tomorrow, so that I can define User experience properly.
 
 ## Commits
@@ -27,9 +24,8 @@ I didn't get as much done today with my report as I wanted. I did find some extr
  * [`3e7646`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/3e7646fa7a6576d09fe904054bd8ead4d2c503f5) - Add plan for today
 
 # New week
-09:31 | Monday, February 20th 2017
+**_09:31_** _| Monday, February 20th 2017_
 
-## Log
 Today, according to my schedule, I'm supposed to have a company introduction the entire week. I need to write some more in my literature review and start planning a research method. Today, I would like to get done:
  - User experience definition
  - Learnability
@@ -39,7 +35,6 @@ I think learnability is a large aspect in itself to cover, so I think this is a 
 # Today I'm (supposed to be) done with the literature review
 Wednesday, February 15th 2017 - Friday, February 17th 2017
 
-## Log
 I've had some setbacks since I started with my master thesis. I have found some research that is similar to mine which I now have to regard and fit into my body of research, which has been quite a challenge. Otherwise I have been writing the Introduction section to my paper, and I have been trying to write it how I would like to have it, and eventually support my claims with sources. I'm going to have to keep doing my literature review and gather more information in the coming week.
 
 ## Commits
