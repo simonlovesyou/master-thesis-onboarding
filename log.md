@@ -1,3 +1,15 @@
+# UX Definition
+16:48 | Tuesday, February 21st 2017
+
+## Log
+It felt like I am kind of starting to understand the scope of the project (and it is huge). There are a lot of user experience concepts and aspects I have to cover to be able to create a theoretical framework of the study. To unload my brain I created a chart of the literature review and how things are connected. I might have to redo the chart tomorrow though, since I might use a UX definition which include 3 major aspects (and sub aspects) instead, which I believe will help me specify the field of onboarding.  
+
+## Commits
+ * [`623b16`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/623b162c0c39df40d5cbdb7b2d95d8c6776cf989) - Write more in the literature review
+ * [`351a21`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/351a215cb91eb014defd0bcc6aa6b7b68d1be9d8) - Add more references
+ * [`8abaaf`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/8abaafd964058c28c36e22fcad6ba95b89528cf1) - Add chart over literature review
+ * [`298714`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/298714208ad89d2e3bc9ccad53946a136705928a) - Add log entry
+
 # More literature review please
 09:31 | Tuesday, February 21st 2017
 
