@@ -1,3 +1,9 @@
+# More literature review please
+09:31 | Tuesday, February 21st 2017
+
+## Log
+Today I would like to be able to do some more literature review and be able to specify my methodology even further.
+
 # User test assistant
 17:30 | Monday, February 20th 2017
 
