@@ -1,3 +1,18 @@
+# Le Mond
+**_17:15_** _| Thursday, February 23rd 2017_
+
+Today I worked offsite at the café Le Mond close to where I live. I managed to get a lot done, and I found some valuable resources that I have been able to use to further expand my Introduction and base my Theoretical Framework on. It's been a very productive day!
+
+## Commits
+ * [`5f55d9`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/5f55d9ba027c15afbd8136b7942fff27f7d3fdd4) - Add more sources
+ * [`9a2ee5`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/9a2ee58855badfac3de0f08d0032f8e880acecbc) - Remove literature study chapter
+ * [`aedebe`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/aedebe5a6893c45fe0c665ed5822f4b22b865187) - Remove Objective chapter
+ * [`5513d0`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/5513d05f39090f03013d224e851f82623786727e) - Add more to the theoretical framework
+ * [`34baf3`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/34baf30d93dff36b78c0830c08a9a27554ab9684) - Add a section describing the partnering company
+ * [`9c19ce`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/9c19ce03347620de37985df6d2a2b6ddc6c7344b) - Reformat parts of the Introduction
+ * [`507bba`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/507bba33f13f0dd71328ccc53bad965f871348a8) - Write more on the introduction
+ * [`bc2a00`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/bc2a0050cce28e16fa99d91648918e0b605ad5ae) - Remove boilerplate article
+
 # UX Definition
 **_16:48_** _| Tuesday, February 21st 2017_
 
