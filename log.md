@@ -1,3 +1,23 @@
+# Productive day
+**_16:25_** _| Friday, February 24th 2017_
+
+Today has been a productive day, and it feels like I kind of have figured out of I would like to structure my theoretical framework. It also feels like I'm understanding the scope of the project. Hopefully this productive pace will continue next week.
+
+Now: Weekend!
+
+## Commits
+ * [`323033`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/32303380e1c746874ee20bc0d0b15347bc00cb41) - Add some sources
+ * [`0afe98`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/0afe987cda87f3df30461b7c6109f94ef91a6566) - Add ignore command
+ * [`59336e`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/59336e68008a193c9e2e53aee98848f989d030cd) - Add temporary objective
+ * [`d617be`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/d617be981bbc0235e7e490551aaae76d47436f34) - Add some sources to the first paragraph of the introduction
+ * [`ac1077`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/ac107724232ac5d1f5e560c66f67f428d686adc4) - Expand the Theoretical Framework
+ * [`4fb48e`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/4fb48eea27bbc42cad8b58b47843406ec2dbc6d1) - Add 3 resources saying that app stickiness improve revenue, loyalty and positive word of mouth
+
+# Friday!
+**_09:26_** _| Friday, February 24th 2017_
+
+It's finally friday! Today, I would like to write more on the Theoretical Framework with the resources I found yesterday. See you at the end of the rainbow 🌈
+
 # Le Mond
 **_17:15_** _| Thursday, February 23rd 2017_
 
