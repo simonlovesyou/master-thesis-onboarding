@@ -1,3 +1,16 @@
+# Incidental learning
+**_17:06_** _| Monday, February 27th 2017_
+
+New week! Today I've tried to decide how I should start my Theoretical Framework. User needs? User behaviour? User motivation? Mental models? Ughh. It's very interesting to read about all these different concepts, but it's hard to mold them all together. I've read a lot today about Incidental learning, which I think is an aspect which we'll use in future work on the thesis.
+
+Tomorrow I'm going to SR to see how they work, and maybe discuss how my thesis work would fit with their app!
+
+## Commits
+ * [`85ce9a`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/85ce9a79b04f2bfdfb40076f72fa93e23c6a9eb0) - Add some citations
+ * [`522e70`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/522e706b847973cf9d7b117e2bed2cb2f21c1594) - Split text into different sections
+ * [`8d0c21`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/8d0c21750f8393db25e458544a270eda9fd9cba4) - Add subject of behavior
+ * [`bd2012`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/bd2012b506d81cad9c6787193199e376ca0253eb) - Add section for mental models
+
 # Productive day
 **_16:25_** _| Friday, February 24th 2017_
 
