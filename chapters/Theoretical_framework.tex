@@ -41,13 +41,35 @@ The term "onboarding" is widely used in the context of organization socializatio
 \section{Theoretical Framework}
 % User problems -> Mobile -> Value proposition
 
-To better understand users and their behaviors we draw inspiration from cognitive and behavioral psychology. Cognitive psychology is a branch of psychology which study higher mental processes of the human mind such as attention, language use, memory, perception, problem solving, and thinking \footnote{\url{http://www.apa.org/research/action/glossary.aspx?tab=3}}. Behavioral psychology and its research field is focused on the environmental determinants of learning and behavior.
+To better understand how to provide a good onboarding experience for the mobile app user we have to understand the problems associated with UX-design, both in general and problem mobile devices. After defining these problems we draw inspiration from cognitive and behavioral psychology. Cognitive psychology is a branch of psychology which study higher mental processes of the human mind such as attention, language use, memory, perception, problem solving, and thinking \footnote{\url{http://www.apa.org/research/action/glossary.aspx?tab=3}}. Behavioral psychology and its research field is focused on the environmental determinants of learning and behavior.
+
+%% PROBLEMS
+\subsection{UX Problems}
+The field of UX is concerned with problems such as ... \ignore{find source that present these problems}
+
+\subsection{Mobile devices}
+UX problems associated with mobile devices ... \ignore{Include problems we've found earlier when gathering resources}
+
+While modern smart phones are packed with a lot of functionality (GPS navigation, voice and data communication, multimedia consumption, gaming) their small form factor limit the possible input and outputs. The two primary means of input supported by these kind of devices are
+\begin{enumerate}
+  \item Touchscreen
+  \item Sensors
+\end{enumerate}
+The sensors available are dependent on the device, but mostly encumbers accelorometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on two-dimensional gestures.
+The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
+
+
+\subsection{Motivation}
+\ignore{Talk about the motivation of the user, intrinsic value etc}
+
+\subsection{Discoverability}
+App discoverability is the concern of finding the correct app. \ignore{Expand, a lot}
 
 \subsection{Behavior}
 
 \cite{Rasmussen1983} has identified three typical levels of performance. \textit{The skill-based behavior} represent the subconscious actions and activities which we perform on a "smooth, automated, and highly integrated patterns of behavior". This level of performance is based on a simple feedback loop, where a stimuli facilitate a motor output. \ignore{Provide example of this}
 
-\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similiar actions performed in a previous similiar occassion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successfull experiences. \ignore{Find evidence that rule and skill-based behavior might help the user with cognitive load}
+\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similiar actions performed in a previous similiar occassion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successfull experiences. \ignore{Find evidence that rule aznd skill-based behavior might help the user with cognitive load}
 
 The main differences of skill-based and rule-based behavior is that the person may not consciously be aware of the actions the user perform when perfomring actions on a skill-based level, and may not be able to recollect why such an action has been taken. The higher level rule-based actions are generally based on "explicit know-how, and the rules used can be reported by the person".
 
@@ -61,40 +83,15 @@ A common concept in the field of cognitive psychology is the concept of \textit{
 "...examines the state of things
 asserted in the premisses, forms a diagram of that state of things, perceives in the parts of that diagram relations not explicitly mentioned in the premisses, satisfies itself by mental experiments upon the diagram that these relations would always subsist, or at least would do so in a certain proportion of cases, and concludes their necessary, or probable, truth." \cite{Pierce1974}
 
-This was further elaborated by the psychologist Kenneth Craik, where he proposes that humans construct "small-scale models" of external reality \cite{Craik1967}. These mental models enable us to use past events to be able to react to present events and anticipate future events, to reason, and to understand our environment. Since Craik's contributions, cognitive psychologist has argued that mental models are formed through current and general knowledge, perception and imagination \cite{Johnson-Laird2001} \ignore{Find some more citations to support this claim}. In the field of Human-Computer Interaction (HCI) mental models has sometimes been used interchangeably with cognitive and conceptual models, and their difference and usage might be confusing as \cite{Staggers1993} concludes. For the purpose of this paper, we'll be using Normans \cite{Norman2013a} definition of conceptual and mental model, where he states that mental model needs to be consistent with the designers conceptual model. Mental models are the models made from experience, instruction and training which users interact through \cite{Norman2013a}. Mental models of devices are created mostly through perceiving possible actions and its visible structures afforded by its interface \cite{Norman2013a}. Bla bla bla conceptual model mimic users mental model.
+This was further elaborated by the psychologist Kenneth Craik, where he proposes that humans construct "small-scale models" of external reality \cite{Craik1967}. These mental models enable us to use past events to be able to react to present events and anticipate future events, to reason, and to understand our environment. Since Craik's contributions, cognitive psychologist has argued that mental models are formed through current and general knowledge, perception and imagination \cite{Johnson-Laird2001} \ignore{Find some more citations to support this claim}. In the field of Human-Computer Interaction (HCI) mental models has sometimes been used interchangeably with cognitive and conceptual models, and their difference and usage might be confusing as \cite{Staggers1993} concludes. For the purpose of this paper, we'll be using Normans \cite{Norman2013a} definition of conceptual and mental model, where he states that mental model needs to be consistent with the designers conceptual model. Mental models are the models made from experience, instruction and training which users interact through \cite{Norman2013a}. Mental models of devices are created mostly through perceiving possible actions and its visible structures afforded by its interface \cite{Norman2013a}. The mental model of the user guide the users expectation of the application, and can guide the users navigation, planning of actions and contribute to the interpretation of interfaces feedback \cite{Jin1992}\ignore{not the actual source}. When the user has acquired an adequate mental model of the structure and possible functions of the app the user is less likely to become disoriented \cite{Jih1992}.
 
-\subsubsection{Gulf of evaluation & execution}
+%%BRIDGING THE GAP
 
+\subsection{Gulf of evaluation \& execution}
+% Expand this section.
 The user initially start with an intention of achieving a goal, where the goal is often expressed in psychological terms. The system or interface
 
-\section{Learnability}
-
-\subsection{Incidental and Informal learning}
-Incidental learning is unintentional or unplanned learning that results from performing activites \cite{Kerka2000}; activities which primary objective is not to acquire knowledge but to progress while pursuing a goal. As Kerka \cite{Kerka2000} has identified in her literature review of incidental learning, incidental learning may occur "through observations, repetition, social interaction, and problem solving; ...; from mistakes, assumptions, beliefs, and attributions; or from being forced to accept or adapt to situations". Incidental learning at this time was discussed in the context of workplace learning, but as \cite{Marsick2001} conclude, this type of learning happen through "everyday encounters while working and living in a given context". Jones et al. \cite{Jones2014} has drawn the conclusion that this type of learning is particulary suited for smartphone use.
-
-\subsection{Human-Computer Dialogue}
-
-If the conceptual model is not clearly communicated to the user and is not properly corrected through computer-human dialog, the user will have trouble performing the tasks they've set out to solve their problem. Studies of blame \ignore{Find these studies}, or \textit{attribution}, has shown that when a fault occurs in a system, the person in question is more likely to attribute the error to system than their own. Similarly, when fortune occurs to a person they are likely to attribute the fortune to their person and intelligence.  has
-
-If the users mental model is not consistent with the conceptual model provided by the designer, the users mental model can be modified through a \textit{computer-human dialog}
-
-The communication between a user and a computer-based system is through a \textit{user-computer dialogue} \cite{Foley1996}, where the dialogue is communicated through a language of inputs and outputs. Similarly to regular human-to-human conversation, we may provide feedback if something is misunderstood or help the other person finish a sentence. The same is true for human-to-computer communication, where feedback is used to reinforce or discourage the users action, making the user adjust his or her mental model of the system.
-
-The area of psychology that focuses on the environmental determinants of learning and behavior.
-
-The theoretical framework will be categorized by the general journey of how smartphone users consume mobile apps, as identified by \cite{IGIGlobal2016}:
-
-According to Foley et al., \cite{Foley1996} some of the primary goals of user-interface design is to increase the users \textit{speed of learning}, \textit{speed of use}, \textit{reduction of error rate}, encouragement of \textit{rapid recall} of how to use the interface and increase in \textit{attractiveness} to potentional users and buyers.
-
-\begin{description}
-  \item [Speed of learning] Speed of learning description
-  \item [Speed of use] Speed of use description
-  \item [Error rate]  Error rate description
-  \item [Rapid recall] Rapid recall description
-  \item [Attractiveness] Attractiveness description
-\end{description}
-
-\section{Direct manipulation}
+\subsection{Direct manipulation}
 
 Direct manipulation was first introduced by Shneiderman, which describe a system which inherit the following properties (p. 184 erryday things as well):
 
@@ -104,45 +101,34 @@ Direct manipulation was first introduced by Shneiderman, which describe a system
   \item Rapid incremental reversible operations whose impact on the object of interest is immediately visible
 \end{enumerate}
 
-Systems that inhibit these properties may have the
+\subsection{Learnability}
+Learnability...
+\subsubsection{Feedback}
+Feedback...
 
-The gulf of execution and the gulf of evaluation.
+\subsubsection{Human-Computer Dialogue}
 
-\subsection{Mobile interaction models} %% Not the real name, but some similar things should exist
-While modern smart phones are packed with a lot of functionality (GPS navigation, voice and data communication, multimedia consumption, gaming) their small form factor limit the possible input and outputs. The two primary means of input supported by these kind of devices are
-\begin{enumerate}
-  \item Touchscreen
-  \item Sensors
-\end{enumerate}
-The sensors available are dependent on the device, but mostly encumbers accelorometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on two-dimensional gestures.
-The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
+If the conceptual model is not clearly communicated to the user and is not properly corrected through computer-human dialog, the user will have trouble performing the tasks they've set out to solve their problem. Studies of blame \ignore{Find these studies}, or \textit{attribution}, has shown that when a fault occurs in a system, the person in question is more likely to attribute the error to system than their own. Similarly, when fortune occurs to a person they are likely to attribute the fortune to their person and intelligence.  has
 
-% ... skriv mer om mental models.
+If the users mental model is not consistent with the conceptual model provided by the designer, the users mental model can be modified through a \textit{computer-human dialog}
 
-% A method used to gather knowledge that already exists in relation to a particular topic or problem.
-% Conducting literature research provides insight into existing knowledge and theories related to your topic. It also ensures that your thesis has a string scientific grounding.
-% Your goal is instead to critically discuss the most relevant ideas and information that you have found as part of your theoretical framework.
+The communication between a user and a computer-based system is through a \textit{user-computer dialogue} \cite{Foley1996}, where the dialogue is communicated through a language of inputs and outputs. Similarly to regular human-to-human conversation, we may provide feedback if something is misunderstood or help the other person finish a sentence. The same is true for human-to-computer communication, where feedback is used to reinforce or discourage the users action, making the user adjust his or her mental model of the system.
 
-% The literature review serves as a real cornerstone for analyzing the problem being investigated. The basis for developing a comprehensive theoretical framework.
+The area of psychology that focuses on the environmental determinants of learning and behavior.
 
-% Once you have a general idea of the problem and research questions you would like to address in your thesis, the first step is often to begin reviewing the literature.
-% The insights into the existing knowledge and theories that you will gain through the literature review will also help you to establish a strong scientific starting point for the rest of your research.
+%% DESIGN
+\subsection{Cognitive load}
+The larger the amount of available information is given to the user from an interface, the more likely it is for the user to fall under the pressure of excessive cognitive load. According to \cite{Jih1992}, the user of an interface has to endure three different types of cognitive load; the content of the application, the application structure and the responses and feedback given by the interface.
 
-%%%% LITERARURE ROADMAP
-%% 1. Prepare
-% The first step involves orienting yourself to the subject in order to get a more global picture of the area of inquiry. It also entails making a list of keywords, which will serve as the basis for the next step.
+\subsection{Affordances / Signals}
+Affordances...
 
-%% 2. Collect literature
-% Does the same authors name keep popping up? This usually means this individual has done lot of research on the topic.
+\subsection{Incidental and Informal learning}
+Incidental learning is unintentional or unplanned learning that results from performing activites \cite{Kerka2000}; activities which primary objective is not to acquire knowledge but to progress while pursuing a goal. As Kerka \cite{Kerka2000} has identified in her literature review of incidental learning, incidental learning may occur "through observations, repetition, social interaction, and problem solving; ...; from mistakes, assumptions, beliefs, and attributions; or from being forced to accept or adapt to situations". Incidental learning at this time was discussed in the context of workplace learning, but as \cite{Marsick2001} conclude, this type of learning happen through "everyday encounters while working and living in a given context". Jones et al. \cite{Jones2014} has drawn the conclusion that this type of learning is particulary suited for smartphone use.
 
-%% 3. Evaluate and select the literature
-% Start with just the introduction and conclusion
+\subsection{Memory}
 
-%% 4. Process the literature
-% Ask yourself the following questions while reading:
-% - What is the problem being investigated and how is the research addressing it?
-% - What are the key concepts and how are they being defined?
-% - What theories and models does the author use?
-% - What are the results and conclusions of the study?
-% - How does this publication compare to related publications in this field?
-% - How can I apply this research to my own research?
+\subsection{Language}
+
+\subsection{Interface design}
+To be able to effectively use the intrinsic motivation of the user, it is
