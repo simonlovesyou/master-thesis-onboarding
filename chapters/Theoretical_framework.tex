@@ -48,19 +48,24 @@ To better understand how to provide a good onboarding experience for the mobile 
 The field of UX is concerned with problems such as ... \ignore{find source that present these problems}
 
 \subsection{Mobile devices}
-UX problems associated with mobile devices ... \ignore{Include problems we've found earlier when gathering resources}
-
+Designing for mobile devices such as smartphones introduce a number of different unique problems such as small screen sizes, limited connectivity, limited battery and restricted set of available inputs \cite{Zhang2005}. One of the biggest challenges is to consider the context of which they are used in \cite{Harrison2013} \cite{Korhonen2010} \cite{Zhang2005}. \cite{Korhonen2010} has identified eight possible contextual factors one has to consider when designing for mobile devices;
+Environment Context The environment context describe the surrounding area of the user and the other entities it contains which can affect the user directly or indirectly.
+Personal Context The personal context describe both the physiological characteristics and attributes (pulse, blood pressure and hair color etc), and the mental attributes of the user (mood, expertise and stress). Mental attributes are most often considered when designing for the context of use.
+Task Context The task context describe the events, actions and activities the user is currently engaged in. This context also describe if the use of a device is a primary or secondary task.
+Social Context Spatio-Temporal Context Device Context
+Service Context
+Access Network Context
 While modern smart phones are packed with a lot of functionality (GPS navigation, voice and data communication, multimedia consumption, gaming) their small form factor limit the possible input and outputs. The two primary means of input supported by these kind of devices are
 \begin{enumerate}
-  \item Touchscreen
+  \item Touchscreen and
   \item Sensors
-\end{enumerate}
-The sensors available are dependent on the device, but mostly encumbers accelorometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on two-dimensional gestures.
-The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
+\end{enumerate*}
+
+The sensors available are dependent on the device, but mostly encumbers accelorometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on twodimensional gestures. The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
 
 
 \subsection{Motivation}
-\ignore{Talk about the motivation of the user, intrinsic value etc}
+To understand the users motivation to use an app we have to understand the needs of the user, and the different kinds of value important to the user. Maslow’s theory of motivation \cite{Maslow1943} say that humans are motivated by a hierachy of needs. He explains that when one hierarchy of need has been satisfied the human try to satisfy the next need in the hierachy, and that the subsequent need has to be fulfilled to be able to care for any of the other needs; "A person who is lacking food, safety, love, and esteem would most probably hunger for food more strongly than for anything else." To be able to understand how to provide a good onboarding experience for the user we have to understand the motivation behind the user to use an app. To do so we have to consider the users’ goals and their present condition; their need. Their need is
 
 \subsection{Discoverability}
 App discoverability is the concern of finding the correct app. \ignore{Expand, a lot}
@@ -69,7 +74,7 @@ App discoverability is the concern of finding the correct app. \ignore{Expand, a
 
 \cite{Rasmussen1983} has identified three typical levels of performance. \textit{The skill-based behavior} represent the subconscious actions and activities which we perform on a "smooth, automated, and highly integrated patterns of behavior". This level of performance is based on a simple feedback loop, where a stimuli facilitate a motor output. \ignore{Provide example of this}
 
-\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similiar actions performed in a previous similiar occassion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successfull experiences. \ignore{Find evidence that rule aznd skill-based behavior might help the user with cognitive load}
+\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similiar actions performed in a previous similiar occassion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successfull experiences. \ignore{Find evidence that rule and skill-based behavior might help the user with cognitive load}
 
 The main differences of skill-based and rule-based behavior is that the person may not consciously be aware of the actions the user perform when perfomring actions on a skill-based level, and may not be able to recollect why such an action has been taken. The higher level rule-based actions are generally based on "explicit know-how, and the rules used can be reported by the person".
 
@@ -84,6 +89,26 @@ A common concept in the field of cognitive psychology is the concept of \textit{
 asserted in the premisses, forms a diagram of that state of things, perceives in the parts of that diagram relations not explicitly mentioned in the premisses, satisfies itself by mental experiments upon the diagram that these relations would always subsist, or at least would do so in a certain proportion of cases, and concludes their necessary, or probable, truth." \cite{Pierce1974}
 
 This was further elaborated by the psychologist Kenneth Craik, where he proposes that humans construct "small-scale models" of external reality \cite{Craik1967}. These mental models enable us to use past events to be able to react to present events and anticipate future events, to reason, and to understand our environment. Since Craik's contributions, cognitive psychologist has argued that mental models are formed through current and general knowledge, perception and imagination \cite{Johnson-Laird2001} \ignore{Find some more citations to support this claim}. In the field of Human-Computer Interaction (HCI) mental models has sometimes been used interchangeably with cognitive and conceptual models, and their difference and usage might be confusing as \cite{Staggers1993} concludes. For the purpose of this paper, we'll be using Normans \cite{Norman2013a} definition of conceptual and mental model, where he states that mental model needs to be consistent with the designers conceptual model. Mental models are the models made from experience, instruction and training which users interact through \cite{Norman2013a}. Mental models of devices are created mostly through perceiving possible actions and its visible structures afforded by its interface \cite{Norman2013a}. The mental model of the user guide the users expectation of the application, and can guide the users navigation, planning of actions and contribute to the interpretation of interfaces feedback \cite{Jin1992}\ignore{not the actual source}. When the user has acquired an adequate mental model of the structure and possible functions of the app the user is less likely to become disoriented \cite{Jih1992}.
+
+Norman \cite{Norman2013a} provide us with a seven-stage cyclic model which describe the manor by which users use interactive products.
+\begin{enumerate}
+  \item Forming the goal
+  \item Forming the intention
+  \item Specifying the action
+  \item Executing the action
+  \item Perceiving the system state
+  \item Interpreting the system state
+  \item Evaluating the outcome
+\end{enumerate}
+
+This model of actions help us describe how an user explore an interface \ignore{Paulson}. This model is not consciously used by the user, but rather it try to explain how we perform tasks. As the users try to finish their tasks, there are four critical points where user errors can occur, as identified by \cite{Shneiderman2004}:
+\begin{enumerate*}
+  \item users form an inadequate goal,
+  \item users might not find the correct interface touchpoint because of a label or icon that does not sufficiently represent its corresponding action
+  \item users may not know what action to perform to get a desired output and
+  \item users get misleading feedback from the system
+\end{enumerate*}
+
 
 %%BRIDGING THE GAP
 
@@ -102,13 +127,14 @@ Direct manipulation was first introduced by Shneiderman, which describe a system
 \end{enumerate}
 
 \subsection{Learnability}
-Learnability...
+More often than not, "interface usage requires learning" \cite{Grossman2009}. Even though there’s plentiful of research regarding learnability, its definition is not widely agreed upon. The different definitions consider different scopes of learnability, e.g. Nielsen definition consider the initial learning curve of the user, and that a highly learnable system would be "allowing users to reach a reasonable level of usage proficiency within a short time." What "a reasonably level of usage proficiency" is relative to a "short time" is still unclear, and it leaves a lot to our own imagination. Schneiderman et al. provide us with a more general applicable definition of "the time it takes members of the user community to learn how to use the commands relevant to a set of tasks". Scheniderman et al. also discuss a different aspect which tightly coupled with learnability, which is \textit{Retention over time}; How well is the user able to recall how to use an application after a specific time period? Retention may
+
 \subsubsection{Feedback}
 Feedback...
 
 \subsubsection{Human-Computer Dialogue}
 
-If the conceptual model is not clearly communicated to the user and is not properly corrected through computer-human dialog, the user will have trouble performing the tasks they've set out to solve their problem. Studies of blame \ignore{Find these studies}, or \textit{attribution}, has shown that when a fault occurs in a system, the person in question is more likely to attribute the error to system than their own. Similarly, when fortune occurs to a person they are likely to attribute the fortune to their person and intelligence.  has
+If the conceptual model is not clearly communicated to the user and is not properly corrected through computer-human dialog, the user will have trouble performing the tasks they've set out to solve their problem. Studies of blame \ignore{Find these studies}, or \textit{attribution}, has shown that when a fault occurs in a system, the person in question is more likely to attribute the error to system than their own. Similarly, when fortune occurs to a person they are likely to attribute the fortune to their person and intelligence.
 
 If the users mental model is not consistent with the conceptual model provided by the designer, the users mental model can be modified through a \textit{computer-human dialog}
 
@@ -118,7 +144,7 @@ The area of psychology that focuses on the environmental determinants of learnin
 
 %% DESIGN
 \subsection{Cognitive load}
-The larger the amount of available information is given to the user from an interface, the more likely it is for the user to fall under the pressure of excessive cognitive load. According to \cite{Jih1992}, the user of an interface has to endure three different types of cognitive load; the content of the application, the application structure and the responses and feedback given by the interface.
+The larger the amount of available information is given to the user from an interface, the more likely it is for the user to fall under the pressure of excessive cognitive load. According to \cite{Jih1992}, the user of an interface has to endure three different types of cognitive load; the content of the application, the application structure and the responses and feedback given by the interface. Schneiderman et al. state that "Providing excessive funtionality ... is also a danger, because the clutter and complexity make implementation, learning, and usage more difficult".
 
 \subsection{Affordances / Signals}
 Affordances...
