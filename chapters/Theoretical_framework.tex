@@ -22,11 +22,11 @@
 
 \chapter{Theoretical Framework}
 \label{chap:theoretical_framework}
-The theoretical framework is performed in two phases. The first phase \textit{Literature review} establish the current research environment in regards to onboarding, which lay ground for this study. The purpose of the second phase is to develop the \textit{theoretical background}, which major parts of the framework is based on. The theoretical background is then further supported by expert interviews and best practice evaluations of other mobile applications.
+The theoretical framework is performed in two phases. The first phase \textit{Literature review} establish the current research environment in regards to onboarding, which lay ground for this study. The purpose of the second phase is to develop the \textit{theoretical background}, which major parts of the framework is based on. The theoretical background is then further supported by best practice evaluations of other mobile applications.
 
 \begin{description}
   \item [Phase 1] The material is for the first phase is retrieved by searching the keywords "onboarding", "user onboarding" and "user sign up".
-  \item [Phase 2] The material reviewed will lay grounds of what user experience (UX) is and what context it has to user onboarding. Some UX challenges and conventions related to mobile/smartphone devices is presented, and a vast coverage of general UX aspects such as "Flow", "Perception", "Memory", "Attention", "Emotion and Motivation" and "Learnability".
+  \item [Phase 2] The material reviewed will lay grounds of what user experience (UX) is and what context it has to user onboarding. Some UX challenges and conventions related to mobile/smartphone devices is presented, and a vast coverage of some UX aspects important to onboarding such as "Flow", "Perception", "Memory", "Attention", "Emotion and Motivation" and "Learnability".
 \end{description}
 
 \section{Literature study}
@@ -35,12 +35,11 @@ The theoretical framework is performed in two phases. The first phase \textit{Li
 There hasn't been a lot of academic research in the field of user onboarding, even though there's a lot of research regarding employee and manager onboarding (ref) (ref) (ref). The most notable contributions to the research field of user onboarding is by Oechsner \cite{Oechsner2016}, where she presents general guidelines for onboarding a user to a digital platform. The guidelines she presents are supported by psychology and IxD research, but fail to include the body of work of employee onboarding and the marketing aspect \textit{stickiness}. Also, her guidelines are meant to be general and may not alone aid the entire onboarding process of all platforms. Her study of user onboarding has been exhaustive, but with the circumstances related to the different usage model of mobile applications support the need for revisiting onboarding process.
 
 \subsection{Onboarding}
+\ignore{Include more onboarding sources}
+The term "onboarding" is widely used in the context of organization socialization, and is described as the process where a new employee is introduced with the skills, knowledge and behaviors they need to succeed in their new organization \cite{Bauer2011}. In the field of management, recruition and human resource management, onboarding is an important aspect to reduce the time for the employee to be fully functional and engaged with the new company \cite{GraybillJolieO;HudsonCarpenterMariaTaesil;OffordJeromeJr;PiorunMary;Shaffer2013}.
 
-The term "onboarding" is widely used in the context of organization socialization, and is described as the process where a new employee is introduced with the skills, knowledge and behaviors they need to succeed in their new organization \cite{Bauer2011}. In the field of management, recrution and human resource management, onboarding is an important aspect to reduce the time for the employee to be fully functional and engaged with the new company \cite{GraybillJolieO;HudsonCarpenterMariaTaesil;OffordJeromeJr;PiorunMary;Shaffer2013}.
-
-\section{Theoretical Framework}
+\section{Theoretical Background}
 % User problems -> Mobile -> Value proposition
-
 To better understand how to provide a good onboarding experience for the mobile app user we have to understand the problems associated with UX-design, both in general and problem mobile devices. After defining these problems we draw inspiration from cognitive and behavioral psychology. Cognitive psychology is a branch of psychology which study higher mental processes of the human mind such as attention, language use, memory, perception, problem solving, and thinking \footnote{\url{http://www.apa.org/research/action/glossary.aspx?tab=3}}. Behavioral psychology and its research field is focused on the environmental determinants of learning and behavior.
 
 %% PROBLEMS
@@ -48,49 +47,51 @@ To better understand how to provide a good onboarding experience for the mobile 
 The field of UX is concerned with problems such as ... \ignore{find source that present these problems}
 
 \subsection{Mobile devices}
-Designing for mobile devices such as smartphones introduce a number of different unique problems such as small screen sizes, limited connectivity, limited battery and restricted set of available inputs \cite{Zhang2005}. One of the biggest challenges is to consider the context of which they are used in \cite{Harrison2013} \cite{Korhonen2010} \cite{Zhang2005}. \cite{Korhonen2010} has identified eight possible contextual factors one has to consider when designing for mobile devices;
-Environment Context The environment context describe the surrounding area of the user and the other entities it contains which can affect the user directly or indirectly.
-Personal Context The personal context describe both the physiological characteristics and attributes (pulse, blood pressure and hair color etc), and the mental attributes of the user (mood, expertise and stress). Mental attributes are most often considered when designing for the context of use.
-Task Context The task context describe the events, actions and activities the user is currently engaged in. This context also describe if the use of a device is a primary or secondary task.
-Social Context Spatio-Temporal Context Device Context
-Service Context
-Access Network Context
+Designing for mobile devices such as smartphones introduce a number of different unique problems such as small screen sizes, limited connectivity, limited battery and restricted set of available inputs \cite{Zhang2005}. One of the biggest challenges is to consider the context of which they are used in \cite{Zhang2005} \cite{Harrison2013} \cite{Korhonen2010}. \cite{Korhonen2010} has identified eight possible contextual factors one has to consider when designing for mobile devices;
+\begin{description}
+  \item [Environment Context] The environment context describe the surrounding area of the user and the other entities it contains which can affect the user directly or indirectly.
+  \item [Personal Context] The personal context describe both the physiological characteristics and attributes (pulse, blood pressure and hair color etc), and the mental attributes of the user (mood, expertise and stress). Mental attributes are most often considered when designing for the context of use.
+  \item[Task Context] The task context describe the events, actions and activities the user is currently engaged in. This context also describe if the use of a device is a primary or secondary task.
+  \item[Social Context] Expand
+  \item[Spatio-Temporal Context] Expand
+  \item[Device Context] Expand
+  \item[Access Network Context] Expand
+\end{description}
 While modern smart phones are packed with a lot of functionality (GPS navigation, voice and data communication, multimedia consumption, gaming) their small form factor limit the possible input and outputs. The two primary means of input supported by these kind of devices are
-\begin{enumerate}
+\begin{enumerate*}
   \item Touchscreen and
   \item Sensors
 \end{enumerate*}
 
-The sensors available are dependent on the device, but mostly encumbers accelorometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on twodimensional gestures. The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
+The sensors available are dependent on the device, but mostly encumbers accelerometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on twodimensional gestures. The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking,
 
+... Discuss different app categories and their different properties
 
 \subsection{Motivation}
-To understand the users motivation to use an app we have to understand the needs of the user, and the different kinds of value important to the user. Maslow’s theory of motivation \cite{Maslow1943} say that humans are motivated by a hierachy of needs. He explains that when one hierarchy of need has been satisfied the human try to satisfy the next need in the hierachy, and that the subsequent need has to be fulfilled to be able to care for any of the other needs; "A person who is lacking food, safety, love, and esteem would most probably hunger for food more strongly than for anything else." To be able to understand how to provide a good onboarding experience for the user we have to understand the motivation behind the user to use an app. To do so we have to consider the users’ goals and their present condition; their need. Their need is
+To understand the users motivation to use an app we have to understand the needs of the user, and the different kinds of value important to the user. Maslow’s theory of motivation \cite{Maslow1943} say that humans are motivated by a hierarchy of needs. He explains that when one hierarchy of need has been satisfied the human try to satisfy the next need in the hierarchy, and that the subsequent need has to be fulfilled to be able to care for any of the other needs; "A person who is lacking food, safety, love, and esteem would most probably hunger for food more strongly than for anything else." To be able to understand how to provide a good onboarding experience for the user we have to understand the motivation behind the user to use an app. To do so we have to consider the users’ goals and their present condition; their need. Their need is
 
 \subsection{Discoverability}
 App discoverability is the concern of finding the correct app. \ignore{Expand, a lot}
 
 \subsection{Behavior}
-
 \cite{Rasmussen1983} has identified three typical levels of performance. \textit{The skill-based behavior} represent the subconscious actions and activities which we perform on a "smooth, automated, and highly integrated patterns of behavior". This level of performance is based on a simple feedback loop, where a stimuli facilitate a motor output. \ignore{Provide example of this}
 
-\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similiar actions performed in a previous similiar occassion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successfull experiences. \ignore{Find evidence that rule and skill-based behavior might help the user with cognitive load}
+\textit{Rule-based behavior} are patterns of behavior which emerge from previous and similar actions performed in a previous similar occasion. The user acts in a goal-oriented manor where the user tries to achieve a goal, which is usually not explicitly stated, with the rules that has empirically evolved through previous successful experiences. \ignore{Find evidence that rule and skill-based behavior might help the user with cognitive load}
 
-The main differences of skill-based and rule-based behavior is that the person may not consciously be aware of the actions the user perform when perfomring actions on a skill-based level, and may not be able to recollect why such an action has been taken. The higher level rule-based actions are generally based on "explicit know-how, and the rules used can be reported by the person".
+The main differences of skill-based and rule-based behavior is that the person may not consciously be aware of the actions the user perform when performing actions on a skill-based level, and may not be able to recollect why such an action has been taken. The higher level rule-based actions are generally based on "explicit know-how, and the rules used can be reported by the person".
 
-The third, and final level of performance as \cite{Rasmussen1983} has identified, is \textit{knowledge-based}. Knowledge-based performance is used during situations that the user is not familiar with, and where any know-how or rules cannot be used from previous experiences. \cite{Rasmussen1983} states that "In this situation, the goal is explicitly formulated, based on an anlysis of the environment and the overall aims of the person. Then a useful plan is developed-by selection-such that different plans are considered, and their effect tested against the goal, physically by trial and error, or conceptually by means of understand the functional properties of the environment and prediction of the effects of the plan is considered." At this level of abstraction, the user represent the system in an internal construct called \textit{mental model}.
+The third, and final level of performance as \cite{Rasmussen1983} has identified, is \textit{knowledge-based}. Knowledge-based performance is used during situations that the user is not familiar with, and where any know-how or rules cannot be used from previous experiences. \cite{Rasmussen1983} states that "In this situation, the goal is explicitly formulated, based on an analysis of the environment and the overall aims of the person. Then a useful plan is developed-by selection-such that different plans are considered, and their effect tested against the goal, physically by trial and error, or conceptually by means of understand the functional properties of the environment and prediction of the effects of the plan is considered." At this level of abstraction, the user represent the system in an internal construct called \textit{mental model}.
 
 %% Cognitive models -> Mental models ->
 
 \subsection{Mental model}
-
 A common concept in the field of cognitive psychology is the concept of \textit{mental models}. Mental models was first introduced by American philosopher Charles Sanders Peirce, where he argues that humans reason by a process which
 "...examines the state of things
-asserted in the premisses, forms a diagram of that state of things, perceives in the parts of that diagram relations not explicitly mentioned in the premisses, satisfies itself by mental experiments upon the diagram that these relations would always subsist, or at least would do so in a certain proportion of cases, and concludes their necessary, or probable, truth." \cite{Pierce1974}
+asserted in the premises, forms a diagram of that state of things, perceives in the parts of that diagram relations not explicitly mentioned in the premises, satisfies itself by mental experiments upon the diagram that these relations would always subsist, or at least would do so in a certain proportion of cases, and concludes their necessary, or probable, truth." \cite{Pierce1974}
 
 This was further elaborated by the psychologist Kenneth Craik, where he proposes that humans construct "small-scale models" of external reality \cite{Craik1967}. These mental models enable us to use past events to be able to react to present events and anticipate future events, to reason, and to understand our environment. Since Craik's contributions, cognitive psychologist has argued that mental models are formed through current and general knowledge, perception and imagination \cite{Johnson-Laird2001} \ignore{Find some more citations to support this claim}. In the field of Human-Computer Interaction (HCI) mental models has sometimes been used interchangeably with cognitive and conceptual models, and their difference and usage might be confusing as \cite{Staggers1993} concludes. For the purpose of this paper, we'll be using Normans \cite{Norman2013a} definition of conceptual and mental model, where he states that mental model needs to be consistent with the designers conceptual model. Mental models are the models made from experience, instruction and training which users interact through \cite{Norman2013a}. Mental models of devices are created mostly through perceiving possible actions and its visible structures afforded by its interface \cite{Norman2013a}. The mental model of the user guide the users expectation of the application, and can guide the users navigation, planning of actions and contribute to the interpretation of interfaces feedback \cite{Jin1992}\ignore{not the actual source}. When the user has acquired an adequate mental model of the structure and possible functions of the app the user is less likely to become disoriented \cite{Jih1992}.
 
-Norman \cite{Norman2013a} provide us with a seven-stage cyclic model which describe the manor by which users use interactive products.
+Norman \cite{Norman2013a} provide us with a seven-stage model which describe the manor by which users use interactive products.
 \begin{enumerate}
   \item Forming the goal
   \item Forming the intention
@@ -101,14 +102,13 @@ Norman \cite{Norman2013a} provide us with a seven-stage cyclic model which descr
   \item Evaluating the outcome
 \end{enumerate}
 
-This model of actions help us describe how an user explore an interface \ignore{Paulson}. This model is not consciously used by the user, but rather it try to explain how we perform tasks. As the users try to finish their tasks, there are four critical points where user errors can occur, as identified by \cite{Shneiderman2004}:
+This model of actions help us describe how an user explore an interface \cite{}\ignore{Polson and Lewis, 1990}. This approximate model \cite{Norman2013a} is not consciously used by the user, but rather it tries to explain how we perform tasks. The model is cyclic, meaning that the user will experience multiple loops of the model as they explore an interface. The model is developed on the basis that human actions has two aspects; execution and evaluation. Execution is doing something which affect the world, and evaluation is the comparison if the world reached or got closer to a state which was desired by the user. These two aspects have their of stages of performance. The stages of execution involves forming the goal, which may be an abstract representation of what we want to achieve (get to work, eat dinner, pick a movie). The goal forms our intentions to perform an action, which constitutes in an action sequence to be executed to satisfy the intention. Finally in the stage of execution, the action sequence is executed upon the world and we reach the stages of evaluation. The first stage of evaluation is perceiving the systems state. The perception is then interpreted according to our expectations and finally compared to our intentions and goal. As the users try to finish their tasks, there are four critical points where user errors can occur, as identified by \cite{Shneiderman2004}:
 \begin{enumerate*}
   \item users form an inadequate goal,
   \item users might not find the correct interface touchpoint because of a label or icon that does not sufficiently represent its corresponding action
   \item users may not know what action to perform to get a desired output and
   \item users get misleading feedback from the system
 \end{enumerate*}
-
 
 %%BRIDGING THE GAP
 
@@ -144,17 +144,14 @@ The area of psychology that focuses on the environmental determinants of learnin
 
 %% DESIGN
 \subsection{Cognitive load}
-The larger the amount of available information is given to the user from an interface, the more likely it is for the user to fall under the pressure of excessive cognitive load. According to \cite{Jih1992}, the user of an interface has to endure three different types of cognitive load; the content of the application, the application structure and the responses and feedback given by the interface. Schneiderman et al. state that "Providing excessive funtionality ... is also a danger, because the clutter and complexity make implementation, learning, and usage more difficult".
+The larger the amount of available information is given to the user from an interface, the more likely it is for the user to fall under the pressure of excessive cognitive load. According to \cite{Jih1992}, the user of an interface has to endure three different types of cognitive load; the content of the application, the application structure and the responses and feedback given by the interface. Schneiderman et al. state that "Providing excessive functionality ... is also a danger, because the clutter and complexity make implementation, learning, and usage more difficult".
 
 \subsection{Affordances / Signals}
-Affordances...
 
 \subsection{Incidental and Informal learning}
-Incidental learning is unintentional or unplanned learning that results from performing activites \cite{Kerka2000}; activities which primary objective is not to acquire knowledge but to progress while pursuing a goal. As Kerka \cite{Kerka2000} has identified in her literature review of incidental learning, incidental learning may occur "through observations, repetition, social interaction, and problem solving; ...; from mistakes, assumptions, beliefs, and attributions; or from being forced to accept or adapt to situations". Incidental learning at this time was discussed in the context of workplace learning, but as \cite{Marsick2001} conclude, this type of learning happen through "everyday encounters while working and living in a given context". Jones et al. \cite{Jones2014} has drawn the conclusion that this type of learning is particulary suited for smartphone use.
+Incidental learning is unintentional or unplanned learning that results from performing activities \cite{Kerka2000}; activities which primary objective is not to acquire knowledge but to progress while pursuing a goal. As Kerka \cite{Kerka2000} has identified in her literature review of incidental learning, incidental learning may occur "through observations, repetition, social interaction, and problem solving; ...; from mistakes, assumptions, beliefs, and attributions; or from being forced to accept or adapt to situations". Incidental learning at this time was discussed in the context of workplace learning, but as \cite{Marsick2001} conclude, this type of learning happen through "everyday encounters while working and living in a given context". Jones et al. \cite{Jones2014} has drawn the conclusion that this type of learning is particularly suited for smartphone use.
 
 \subsection{Memory}
-
 \subsection{Language}
-
 \subsection{Interface design}
 To be able to effectively use the intrinsic motivation of the user, it is
