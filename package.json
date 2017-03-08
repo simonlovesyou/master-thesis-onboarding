@@ -13,7 +13,8 @@
     "clean": "rm -rf dist/",
     "open": "open dist/index.pdf",
     "spellcheck": "for f in chapters/*.tex ; do echo $f ; aspell --lang=en --mode=tex --extra-dicts=./project.dic list < $f | sort | uniq -c ; done",
-    "log": "node ./node_modules/git-log-book/index.js"
+    "log": "node ./node_modules/git-log-book/index.js",
+    "dumpwords": "for f in chapters/*.tex ; do echo $f ; aspell --lang=en --mode=tex --extra-dicts=./project.dic list < $f | sort | uniq >> project.dic ; done"
   },
   "keywords": [
     "master",
