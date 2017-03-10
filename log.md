@@ -1,3 +1,61 @@
+# Peer review
+**15:14** | Wednesday, March 8th 2017 - Friday, March 10th 2017
+
+We've had peer review this week with 3 others from my class. I tried to finish up my report so that it was at least somewhat coherent. We exchanged reports on Tuesday and gave feedback to each other, and I got quite a few good tips from my peers. I've taken most of the general feedback I've received and opened issues for every each one of them to be able to track the progress on them. Most of them will be quick fixes, but some will take longer to fix.
+
+## Commits
+ * [`f7fc4f`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/f7fc4fc35787d0ed2d68d8a57a579f6214639023) - Fix spelling
+ * [`51986a`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/51986a6e5adcc1c1b82c8f363d2854fb020dbbe0) - Add chapter for best practice evaluation
+ * [`a3db08`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/a3db085bd67219af26f609fc1be207e5e0f8d30c) - Add basic thesis info
+ * [`9e8038`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/9e8038e4de2f610feaba5f1a2c11def0285d69c1) - Add script for dumping words into the project dic
+ * [`c584da`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/c584dab3837e1208e24473e421124bdbd04d3e68) - Add project dic to spellcheck script
+ * [`fda066`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/fda066949e6b5d73fc51e96c36069120383398a7) - Add dictionary file for the project
+ * [`366583`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/366583576765f5776ff7173d0eb16502d7b4ed03) - Add resources
+ * [`ad7b5e`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/ad7b5e06415b5653cd869d17048c6ba63cb5f3a1) - Fix spelling errors
+
+## New issues
+ * Include a 'Conclusion' section to Theoretical Framework
+ * Switch out ampersand with 'and' in subheading
+ * Switch out list of words with quotation marks with italic
+ * Explain what I mean by Behavior in the Theoretical Framework
+ * Explain the choice of applications in the "Best practice evaluation" in Methodology
+ * Explain how the Theoretical Framework is built
+ * Expand the Methodology
+ * To much use of the word "term" in Introduction
+ * Add more limitations
+ * Move definition of UX and onboarding to Background
+ * Add a Background chapter
+ * Reformulate title
+ * Make the read thread more apparent in the Theoretical Framework
+ * Try to reformulate sentances to not use "we"
+ * Use a friendlier language
+ * Mention author inline
+
+# Trouble
+**16:06** | Wednesday, March 1st 2017 - Wednesday, March 8th 2017
+
+I have had trouble keeping up with the log unfortunately. I've had some setbacks with losing half a days work yesterday and having trouble getting a meeting scheduled with SR. The office will work offsite Thursday and Friday, and I have peer review meeting tomorrow so I won't be at the office for the rest of the week.
+
+## Commits
+ * [`f7fc4f`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/f7fc4fc35787d0ed2d68d8a57a579f6214639023) - Fix spelling
+ * [`51986a`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/51986a6e5adcc1c1b82c8f363d2854fb020dbbe0) - Add chapter for best practice evaluation
+ * [`a3db08`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/a3db085bd67219af26f609fc1be207e5e0f8d30c) - Add basic thesis info
+ * [`9e8038`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/9e8038e4de2f610feaba5f1a2c11def0285d69c1) - Add script for dumping words into the project dic
+ * [`c584da`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/c584dab3837e1208e24473e421124bdbd04d3e68) - Add project dic to spellcheck script
+ * [`fda066`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/fda066949e6b5d73fc51e96c36069120383398a7) - Add dictionary file for the project
+ * [`366583`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/366583576765f5776ff7173d0eb16502d7b4ed03) - Add resources
+ * [`ad7b5e`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/ad7b5e06415b5653cd869d17048c6ba63cb5f3a1) - Fix spelling errors
+ * [`2d451d`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/2d451d0ba37c40e71d1819b1db722e1a18e147ff) - Add to each section
+ * [`fbd52d`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/fbd52d4d8520997a2e8274ddcd2ac4646564631b) - Move around sections and remove thesis template comments
+ * [`873d6b`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/873d6b889cd3fd2f44f1802e73ccfa8bef79b413) - Add red thread for the theoretical framework
+
+
+
+# Isotop
+**_11:04_** _| Tuesday, February 28th 2017_
+
+I'm spending the morning with Simon at Isotop to see how they work with SRs app. I'll probably spend the day after lunch on the theoretical framework.
+
 # Incidental learning
 **_17:06_** _| Monday, February 27th 2017_
 
