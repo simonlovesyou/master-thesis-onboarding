@@ -1,3 +1,24 @@
+# Issues
+**18:28** | Monday, March 13th 2017
+
+I've fixed some issues that surfaced during the peer review meeting we had last week. Tomorrow I have a meeting with the product manager of the SR Play app.
+
+## Commits
+ * [`a31b1d`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/a31b1d02bf566c07882e1b48da0422c3ef881e69) - Rewrite parts of the Introduction. Fixes #10
+ * [`58bb88`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/58bb88327359d1aeb42d394e7dba4b58f5ceaba6) - Move description of the theoretical framework from its chapter to Methodology
+ * [`a1de1b`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/a1de1bb146467eb1f7f50c23df3e1cc4b9151e9f) - Move definition of onboarding to Background chapter
+ * [`08e1f6`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/08e1f6215fd5cfb9749e5fa2680997b2ff1f63d6) - Move definition of UX to Background chapter
+ * [`952f89`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/952f89469c19254608b750c467ff82647fbaef5d) - Add basic sections to background chapter
+ * [`cdf79f`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/cdf79fe079133d26b1529ea9c3e55364c1bf8aca) - Replace ampersand with "and". Fixes #16
+ * [`3670b4`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/3670b48c13877a679fe1f6ed828f55fb23f46955) - Add background section. Fixes #7
+
+## Resolved issues
+ * Switch out ampersand with 'and' in subheading
+ * Switch out list of words with quotation marks with italic
+ * To much use of the word "term" in Introduction
+ * Move definition of UX and onboarding to Background
+ * Add a Background chapter
+
 # Peer review
 **15:14** | Wednesday, March 8th 2017 - Friday, March 10th 2017
 
