@@ -1,3 +1,15 @@
+# Meeting
+**17:02** | Tuesday, March 14th 2017
+
+Today I've decided to do a major restructering of my paper, which will hopefully make my study more focused on the areas of concern. Also, today I finally had a meeting with the PM of the SR Play app, and we discussed my involvement in their project and how I can contribute. Hopefully we will be able to have more effective communication in the future so that meetings don't take 3 weeks to plan.
+
+## Commits
+ * [`24e67b`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/24e67b58b11548f13cfab91e37ad005cfc9d9cf1) - Add resources
+ * [`08b6dd`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/08b6dda60f349efafde264f790184e984349f0fd) - Restructure method section
+ * [`944824`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/944824335e067d110d9b769a891678c0fd608981) - Add text to the mobile ux section of the background
+ * [`b21681`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/b216816fa955e90e551b7af9c5940b8efb20eb05) - Expand the definition of onboarding
+ * [`4159f5`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/4159f56e2362e8a5197c40c6be491ed868c75c07) - Expand the definition of user experience
+
 # Issues
 **18:28** | Monday, March 13th 2017
 
