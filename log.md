@@ -1,5 +1,5 @@
 # Motivation
-**_16:58_** | _Wednesday, March 15th 2017_
+**16:58** _| Wednesday, March 15th 2017_
 
 I did a major restructuring of the Theoretical Framework and wrote about Motivation.
 
@@ -12,7 +12,7 @@ I did a major restructuring of the Theoretical Framework and wrote about Motivat
  * [`bd75e3`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/bd75e379bcdab8ef40dc36c111b87cfef89aa5d0) - Replace it's with it is
 
 # Meeting
-**17:02** | Tuesday, March 14th 2017
+**17:02** _| Tuesday, March 14th 2017_
 
 Today I've decided to do a major restructering of my paper, which will hopefully make my study more focused on the areas of concern. Also, today I finally had a meeting with the PM of the SR Play app, and we discussed my involvement in their project and how I can contribute. Hopefully we will be able to have more effective communication in the future so that meetings don't take 3 weeks to plan.
 
@@ -24,7 +24,7 @@ Today I've decided to do a major restructering of my paper, which will hopefully
  * [`4159f5`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/4159f56e2362e8a5197c40c6be491ed868c75c07) - Expand the definition of user experience
 
 # Issues
-**18:28** | Monday, March 13th 2017
+**18:28** _| Monday, March 13th 2017_
 
 I've fixed some issues that surfaced during the peer review meeting we had last week. Tomorrow I have a meeting with the product manager of the SR Play app.
 
@@ -45,7 +45,7 @@ I've fixed some issues that surfaced during the peer review meeting we had last 
  * Add a Background chapter
 
 # Peer review
-**15:14** | Wednesday, March 8th 2017 - Friday, March 10th 2017
+**_15:14_** _| Wednesday, March 8th 2017 - Friday, March 10th 2017_
 
 We've had peer review this week with 3 others from my class. I tried to finish up my report so that it was at least somewhat coherent. We exchanged reports on Tuesday and gave feedback to each other, and I got quite a few good tips from my peers. I've taken most of the general feedback I've received and opened issues for every each one of them to be able to track the progress on them. Most of them will be quick fixes, but some will take longer to fix.
 
@@ -78,7 +78,7 @@ We've had peer review this week with 3 others from my class. I tried to finish u
  * Mention author inline
 
 # Trouble
-**16:06** | Wednesday, March 1st 2017 - Wednesday, March 8th 2017
+**_16:06_** _| Wednesday, March 1st 2017 - Wednesday, March 8th 2017_
 
 I have had trouble keeping up with the log unfortunately. I've had some setbacks with losing half a days work yesterday and having trouble getting a meeting scheduled with SR. The office will work offsite Thursday and Friday, and I have peer review meeting tomorrow so I won't be at the office for the rest of the week.
 
