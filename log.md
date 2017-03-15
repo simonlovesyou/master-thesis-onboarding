@@ -1,3 +1,16 @@
+# Motivation
+**_16:58_** | _Wednesday, March 15th 2017_
+
+I did a major restructuring of the Theoretical Framework and wrote about Motivation.
+
+## Commits
+ * [`28a1c0`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/28a1c0a5de57f30eb2e66b5fed628b221c0e0d50) - Add references
+ * [`82d451`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/82d451f11ae1d9d4638ab102e368ebbc1d30a3bc) - Add text to motivation
+ * [`0eb38b`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/0eb38be8c4d8a8d48cc53895318e068ed7c14cd7) - Add words to project dictionary
+ * [`ec9a77`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/ec9a7762693df511006e4f430b661574d568ff71) - Fix spelling errors
+ * [`d199b3`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/d199b306f0df4071c01e9bdea336d135a57b5b14) - Restructure large parts of the Theoretical Framework
+ * [`bd75e3`](https://github.com/simonlovesyou/master-thesis-onboarding/commit/bd75e379bcdab8ef40dc36c111b87cfef89aa5d0) - Replace it's with it is
+
 # Meeting
 **17:02** | Tuesday, March 14th 2017
 
