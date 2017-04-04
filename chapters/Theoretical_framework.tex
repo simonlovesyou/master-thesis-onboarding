@@ -221,12 +221,147 @@ While modern smart phones are packed with a lot of functionality (GPS navigation
   \item Sensors
 \end{enumerate*}
 
-The sensors available are dependent on the device, but mostly encumbers accelerometers, gyroscopes and orientation sensors. The touchscreen enables the user to interact through two-dimensional surface gestures \cite{Ruiz2011}. It is also possible for the user to gesture in three dimensions using the sensors, but we will focus mostly on twodimensional gestures. The possible actions and models which we interact through with mobile devices are mostly based on hand-based gestures. The gesture model which we have for touchscreen-based mobile devices include tapping, swiping, shaking
-
-... Discuss different app categories and their different properties.
-
 \subsection{Memory}
 \subsection{Language}
 \subsection{Interface design}
 To be able to effectively use the intrinsic motivation of the user, it is
 }
+
+\section{Best practice evaluation}
+\label{sec:best_practice_evaluation}
+
+To understand the industry and what techniques they deploy to onboard users we have done an analysis of the applications \textit{dots}. All tests were performed on an iPhone 6s+.
+
+\subsection{Dots}
+
+Dots is a puzzle game on iOS and Android where you connect dots together. They use an \textit{interactive tutorial} where the user is introduced to mechanics of the game.
+
+\begin{figure}
+\centering
+\captionsetup{format=multiline,font=footnotesize}
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:1.png}
+  \captionof{figure}{\\Dots in "App Store"}
+  \label{fig:1:1}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:2.png}
+  \captionof{figure}{\\The first screen}
+  \label{fig:1:2}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:3.png}
+  \captionof{figure}{\\Start of the tutorial}
+  \label{fig:1:3}
+\end{minipage}
+\end{figure}
+
+The title hints to the user that the game is about connecting dots (Figure \ref{fig:1:1}(1)), which is further verified by the first screen when you open the app (Figure \ref{fig:1:2} (1)). The quote leaves out who said "Eventually, everything connects". After pressing OK in Figure \ref{fig:1:2} we are presented with two red dots. The only possible action here is to connect the two dots (Figure \ref{fig:1:4}).
+
+\begin{figure}
+\centering
+\captionsetup{format=multiline,font=footnotesize}
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:4.png}
+  \captionof{figure}{\\Connecting the two dots}
+  \label{fig:1:4}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:5.png}
+  \captionof{figure}{\\Positive reinforcement}
+  \label{fig:1:5}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:6.png}
+  \captionof{figure}{\\Next challenge}
+  \label{fig:1:6}
+\end{minipage}
+\end{figure}
+
+We connect the dots by tapping, holding and dragging between them with one of our fingers. As we do this we can see a line forming at the top and bottom of the screen. As we release our finger we get some positive reinforcement that we successfully completed the task (Figure \ref{fig:1:5}). After pressing the button labeled "OK" we're presented with the text "Make a square" and four purple dots (Figure \ref{fig:1:6}). We know from before (Figure \ref{fig:1:4}) that we can horizontally connect dots, and we can now figure out that we can connect them vertically as well. We also now know that the dots can be of different colors.
+
+\begin{figure}
+\centering
+\captionsetup{format=multiline,font=footnotesize}
+\captionsetup{format=multiline,font=footnotesize}
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/1:7.png}
+  \captionof{figure}{\\Failing to make a square}
+  \label{fig:1:7}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:1.png}
+  \captionof{figure}{\\Making a square}
+  \label{fig:2:1}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:2.png}
+  \captionof{figure}{\\Positive reinforcement}
+  \label{fig:2:2}
+\end{minipage}
+\end{figure}
+
+As we start connecting the dots we can notice that the line at the bottom and top of the screen gets longer as we connect more, so we can deduce that this represent the length of the joined segments. If we connect the dots like in figure \ref{fig:1:7} the dots fall down and we get to start over at figure \ref{fig:1:6}. We only get to proceed if we manage to form a square with the lines as in figure \ref{fig:2:1}. This hints to us as users that it is better to form a square if possible than merely connecting the four dots, but we do not yet know why it is better.
+
+After making a square with the four dots, we get some positive reinforcement, and we get to exclaim "Great!" by pressing the green button in figure \ref{fig:2:2}.
+
+\begin{figure}
+\centering
+\captionsetup{format=multiline,font=footnotesize}
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:3.png}
+  \captionof{figure}{\\Lines with different colored dots}
+  \label{fig:2:3}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:4.png}
+  \captionof{figure}{\\Connecting the lines}
+  \label{fig:2:4}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{dots/2:5.png}
+  \captionof{figure}{\\Final prompt of the interactive tutorial}
+  \label{fig:2:5}
+\end{minipage}
+\end{figure}
+
+After pressing "Great!" in figure \ref{fig:2:2} we're presented with an array of dots (Figure \ref{fig:2:3}). Unlike before, this time we're not prompted to do any specific task, but with our newly acquired experience and the order of the colored dots hints to us to connect them in lines, like in figure \ref{fig:2:4}. When there are no more dots to connect we get to proceed to figure \ref{fig:2:5}, and we get the same quote we we're first presented with when we opened the app, but now we know that it was Charles Eames who said it. We proceed from here by pressing the only button with the label "Done".
+
+\begin{figure}
+\centering
+\captionsetup{format=multiline,font=footnotesize}
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:6.png}
+  \captionof{figure}{\\The main menu}
+  \label{fig:2:6}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{dots/2:7.png}
+  \captionof{figure}{\\Timed mode description}
+  \label{fig:2:7}
+\end{minipage}%
+\begin{minipage}{.33333\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{dots/3:1.png}
+  \captionof{figure}{\\Game screen}
+  \label{fig:3:1}
+\end{minipage}
+\end{figure}
+
+Proceeding from figure \ref{fig:2:5} we're presented with the main menu of the application, and we're presented with seemingly 10 options. Nothing seems to happen when we press the logo of the app (1), (2) hints us that it takes us to some customization options of the app, 3-6 seem to be the main options of the app because of their large size and position in the center. 7-10 are the most vague possible options, with no labels and iconography that may be hard to figure out in the context of the app what they represent. Some possible options 2-6 are represented with round buttons, while 7-10 are represented with just icons.
+
+(3) in figure \ref{fig:2:5}
