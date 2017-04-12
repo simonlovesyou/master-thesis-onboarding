@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contract
+% LaTeX Template
+% Version 1.0 (December 8 2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Brandon Fryslie
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% If you are using Apple OS X, go into structure.tex and uncomment the font
+% specifications for OS X and comment out the default specifications - this will
+% drastically increase how good the document looks. You will now need to
+% compile with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,12pt]{article} % The default font size is 12pt on A4 paper, change to 'usletter' for US Letter paper and adjust margins in structure.tex
+
+\input{./forms/structure.tex} % Input the structure.tex file which specifies the document layout and style
+
+%----------------------------------------------------------------------------------------
+%	DYNAMIC CONTRACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+% Your name and company name
+\newcommand{\YourName}{[Simon Johansson]}
+\newcommand{\CompanyName}{[Doberman \& Ume\aa University]}
+
+% Your address
+\newcommand{\AddressLineOne}{[AddressLineOne]}
+\newcommand{\AddressLineTwo}{[AddressLineTwo]}
+
+% Your email address
+\newcommand{\YourEmail}{[simon.johansson@doberman.co]}
+
+% The client's name
+\newcommand{\ClientName}{[Client name]}
+
+% The delivery date for specifications and completion date for the project
+\newcommand{\DeliveryDate}{[date]}
+\newcommand{\CompletionDate}{[date]}
+
+\newcommand{\Qline}[1]{\noindent\rule{#1}{0.6pt}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+{\LARGE Samtyckesformulär}\\ [.5cm]
+
+Var snäll och läs och skriv under detta samtyckesformulär. I detta användartest kommer:
+\begin{itemize}[noitemsep]
+  \item du bli ombedd att utföra olika uppgifter i mobilApp med en smartphone.
+  \item skärmen spelas in för vidare analys
+  \item en testledare leda dig genom testet
+  \item du intervjuas efter testet om din upplevelse av mobilApp
+\end{itemize}
+
+Ditt deltagande i detta användartest är frivilligt. All information som samlas in under detta användartest kommer att vara konfidentiell och endast användas för att förbättra användarupplevelsen i mobilApp. Dock kommer aldrig ditt namn eller någon annan form av personidentifikation användas. Du kan när som helst under testets gång avbryta. Efter testet kan du be om att få en kopia på all information vi samlat in om dig och ditt deltagande idag.
+
+Jag har läst och förstått all information i detta formulär och jag har fått alla mina frågor besvarade
+\vspace{1cm} %5mm vertical space
+\\
+
+\Qline{0.7\textwidth}\\
+Signatur\\
+\vspace{1cm} %5mm vertical space
+\\
+\Qline{0.7\textwidth}\\
+Datum
+\end{document}
