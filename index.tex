@@ -10,12 +10,28 @@
 \usepackage{lmodern}              % Optional fonts. (not necessary)
 \usepackage{url}
 \usepackage[T1]{fontenc}
-
+\usepackage{pdfpages}
+\usepackage{caption}
 \usepackage{subcaption}
 \usepackage{csquotes}
+\usepackage[toc,page]{appendix}
+\usepackage{varwidth}
+\DeclareCaptionFormat{multiline}{%
+  % #1: label (e.g. "Table 1")
+  % #2: separator (e.g. ": ")
+  % #3: caption text
+  \begin{varwidth}{\linewidth}%
+    \centering
+    #1#2#3%
+  \end{varwidth}%
+}
 
 \usepackage{adjustbox}
 \usepackage{graphicx}
+\usepackage{enumerate}
+
+\usepackage{textcomp,amsmath,longtable}
+\usepackage{latexsym}
 
 \usepackage{blindtext}
 \usepackage{amssymb}
