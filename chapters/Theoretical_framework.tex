@@ -252,22 +252,66 @@ Getting the user to have a representative mental model of the system is key to a
 % Expand this section.
 The user initially start with an intention of achieving a goal, where the goal is often expressed in psychological terms. The system or interface
 
+\subsubsection{Expectation-Confirmation Model}
+The expectation-confirmation model (ECM) examine the cognitive beliefs and affects that influences one's intention to continue using information systems \cite{Bhattacherjee2001a}. The model stems from Expectation-confirmation theory (ECT) which has been widely used to study consumer satisfaction, post-purchase behavior and service quality control in general (\cite{Anderson1993} \cite{Oliver1981} among others). The process which consumers conclude their satifsaction or dissatisfaction of a product is by \begin{enumerate*}[label=(\(\arabic*\))]
+  \item forming an initial expectation of the product or service before purchasing,
+  \item they form a perception about the performance of the product after a period continued use,
+  \item they compare their perceived performance with their initial expectation, and conclude whether or not their expectation has been confirmed,
+  \item depending on the level of confirmation and expectation they achieve a certain level of satisfaction of the product.
+  \item Finally, depending on the level of satisfaction the consumer decide whether or not to repurchase the product and continue its use. Dissatsfied users discontinue the use of the product.
+\end{enumerate*}
+
+The feeling of \textit{satisfaction} of a product has been defined as "the summary psychological state resulting when the emotion surrounding disconfirmed expectations is coupled with the consumer's prior feelings about the consumption experience." by \cite{Oliver1981}, while Bhattacherjee has defined it as "an ex post evaluation of the users’ initial trial experience with the service as is captured as a positive feeling, satisfaction, indifference or negative feeling (dissatisfaction)" \cite{Bhattacherjee2001}. Both definitions imply a that the state of satisfaction is based on the appraisal of expectation versus outcome, as expectation sets the bar for the customer to which the customer will compare the product to. A lower expectation and/or higher product performance lead to a greater level of confirmation, which dictates the customers satisfaction. A high expectation and/or low product performance lead to disconfirmation, dissatisfaction and an intention of product discontinuence.
+
+According to the ECM, the person using an IS continually adjust their perception of the perceived usefulness about the IS as they acquire new information. The model proposes that perceived usefulness and confirmation are the leading factors that determine the willingness of IS continuance through satisfaction. As we can see in figure \ref{fig:ECM} confirmation also influence perceived usefulness.
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.8\textwidth]{ECM}
+  \caption{Expectation-Confirmation Model (ECM). (modified from \cite{Bhattacherjee2001a})}
+  \label{fig:ECM}
+\end{figure}
+
 \subsubsection{Learnability}
-More often than not, "interface usage requires learning" \cite{Grossman2009}. Even though there is plentiful of research regarding learnability, its definition is not widely agreed upon. The different definitions consider different scopes of learnability, e.g. Nielsen definition consider the initial learning curve of the user, and that a highly learnable system would be "allowing users to reach a reasonable level of usage proficiency within a short time." What "a reasonably level of usage proficiency" is relative to a "short time" is still unclear, and it leaves a lot to our own imagination. Schneiderman et al. provide us with a more general applicable definition of "the time it takes members of the user community to learn how to use the commands relevant to a set of tasks". Schneiderman et al. also discuss a different aspect which tightly coupled with learnability, which is \textit{Retention over time}; How well is the user able to recall how to use an application after a specific time period? Retention may
+More often than not, "interface usage requires learning" \cite{Grossman2009}, and the growing number of  products which do not have any formal documentation need to be learned in a few minutes or risk being abandonded \cite{Bergman2000}. Even though there is plentiful of research regarding learnability, its definition is not widely agreed upon. The different definitions consider different scopes of learnability, e.g. Nielsen definition consider the initial learning curve of the user, and that a highly learnable system would be "allowing users to reach a reasonable level of usage proficiency within a short time." What "a reasonably level of usage proficiency" is relative to a "short time" is still unclear, and it leaves a lot to our own imagination. Schneiderman and Plaisant provide us with a more general applicable definition of "the time it takes members of the user community to learn how to use the commands relevant to a set of tasks" \cite{Shneiderman2004}. Schneiderman and Plaisant also discuss different aspects which they argue affect interface learnability, which is \textit{Retention over time}; How well is the user able to recall how to use an application after a specific time period? Retention may affect time to learn \cite{Shneiderman2004}.
+
+\begin{description}
+  \item[Time to learn] How long does it take for the typical user to learn the required actions to reach a goal?
+  \item[Speed of performance] How long does it take to reach the main goals?
+  \item[Rate of errors] How many user or interface errors occurs when the users perform the main actions?
+  \item[Subjective satisfaction] Did the users have a positive experience using the interface?
+\end{description}
+
+Succeeding in each of these categories may be hard for the designer, and succeeding in one category may require tradeoffs in another. For instance, if we want to have a low rate of errors we may need to sacrifice speed of performance. The designer and project managers need to identify which of these categories will be most valued by the users \cite{Shneiderman2004}.
 
 \ignore{\url{http://www.lawrence-najjar.com/papers/Principles_of_educational_multimedia_user_interface_design.html}}
 
-The characteristics of the material to learn can significantly affect learning. From a psychological standpoint, the learning characteristics include the medium itself, physical structure, conceptual difficulty, and sequence \ignore{\cite{Bransford1978}}. The follow principles suggest ways to design to improve the interfaces learnability.
+The characteristics of the material to learn can significantly affect learning. From a psychological standpoint, the learning characteristics include the medium itself, physical structure, conceptual difficulty, and sequence \ignore{\cite{Bransford1978}}. The following text will discuss ways to improve learnabilty through the medium of the material.
 
-Images seem to help the user learn information more effectively. For example, it has been found when testing recall that pictures of common objects had a higher success rate than their textual names. \ignore{\cite{(e.g., Lieberman & Culpepper, 1965; Nelson, Reed, & Walling, 1976; Paivio & Csapo, 1969, 1973; Paivio, Rogers, & Smythe, 1968)}}. This is not true though when the content of the images are similar \ignore{\cite{(Nelson et al., 1976)}} or when they attempt to communicate abstract concepts such as "freedom" or "amount" \ignore{\cite{Nelson ???}}. The combination of images and textual words improves recall \ignore{\cite{Paivio & Csapo, 1973}} and comprehension of text \ignore{\cite{Levie & Lentz, 1982}}
+Images seem to help the user learn information more effectively. For example, it has been found when testing recall that pictures of common objects had a higher success rate than their textual names \cite{Lieberman1965} \cite{Nelson1976} \cite{Paivio1969} \cite{Paivio1973}. This is not true though when the images represent similar object \cite{Nelson1976} or when they attempt to communicate abstract concepts such as "freedom" or "amount". The combination of images and textual words improves recall \cite{Paivio1973} and comprehension of text \cite{Levie1982}.
 
-Nugent \ignore{\cite{Nugent1982}} got the highest levels of learning when she presented information as a combination of text and images or text and audio compared to the same content via text, audio or images alone.
+Nugent \ignore{\cite{Nugent1982}} got the highest levels of learning when she presented information as a combination of text and images or text and audio compared to the same content via text, audio or images alone. Leung \cite{Leung2009} has found that when using icons for interface functions, labeling them will help users correctly interpret the function. Similarly, a study by Wiedenbeck found that first time user had a best performance with label and icon-label interface, and icon-label had a higher perception of ease of use among participans than icon only and label only \cite{Wiedenbeck1999}.
 
-Encouraging the user to elaborately learn the material through interactivity may improve learning \ignore{\cite{e.g., Bower & Winzenz, 1970; Jacoby, Craik, & Begg, 1979; Kolers, 1979; Salomon, 1984; Walker, Jones, & Mar, 1983}}. An interactive user interface has found a significant positive contribution to learning \ignore{\cite{Bosco, 1986; Fletcher, 1989, 1990; Stafford, 1990; Verano, 1987}} and retention of knowledge over time \ignore{\cite{Stafford 1990}}. It has also been found that user may learn the learning material faster and may have a better attitude to learning the material when they use an interactive instructional environment. \ignore{\cite{Bosco, 1986; Fletcher, 1989, 1990}}
+Encouraging the user to elaborately learn the material through interactivity may improve learning \cite{Bower1970} \cite{Jacoby1979} \cite{Bosco1990}. An interactive user interface has found a significant positive contribution to learning \cite{Bosco1990} \cite{Fletcher1989} \ignore{\cite{Bosco, 1986; Fletcher, 1989, 1990; Stafford, 1990; Verano, 1987}} and retention of knowledge over time \ignore{\cite{Stafford 1990}}. It has also been found that user may learn the learning material faster and may have a better attitude to learning the material when they use an interactive instructional environment. \ignore{\cite{Bosco, 1986; Fletcher, 1989, 1990}}
+
+More design principles are provided by \cite{Lohr2000} on how :
+
+\begin{itemize}
+  \item Make the difference between fore- and background as distinct as possible to help the user percieve the signals of the interface correctly.
+  \item Help the user understand the hierarchy of instructional tasks by organizing interface elements into meaningful section of information
+  \item Design and organize the interface elements into a coherent whole so that the learner has an overall idea of what the environment is like and what is expected of the learner
+\end{itemize}
 
 Interaction in itself does not necessarily help the user to learn. The interaction must be cognitively engaging and challenge the user \ignore{\cite{???}}.
 
-Helping the user digest the material through different means will
+Kristoffersen has identified four principles of learnability.
+
+\begin{description}
+  \item[Predictability]
+  \item[Consistency]
+  \item[Generalizability]
+  \item[Familiarity]
+\end{description}
 
 \ignore{A small number of studies provide limited support for this design principle. Multimedia can help direct the learner's attention to relevant information and improve learning. For example, one study (Baxter, Quarles, & Kosak, 1978) asked adults in a shopping mall to "look over" a newspaper page that included a story with or without a large photograph. When asked questions about their recall of the newspaper story, the participants remembered more information when they saw the story with the photograph than when they saw the story without the photograph. It appears that the photograph got the participants' attention and caused them to read the accompanying story. Other researchers successfully used drawings (e.g., Paradowski, 1967; Tennyson, 1978), motion (Baek & Layne, 1988; Park & Hopkins, 1993), small "chunks" of textual and graphical information (Rieber, 1990b), and adjunct questions (e.g., McConkie, Rayner, & Wilson, 1973; Watts & Anderson, 1971) to focus the learners' attention.
 
