@@ -22,8 +22,8 @@
     "log": "node ./node_modules/git-log-book/index.js",
     "move": "npm run move:thesis && npm run move:forms",
     "move:thesis": "mkdir -p dist && cp ./obj/index.pdf ./dist/Simon_Johansson_User_onboarding_for_mobile_applications.pdf",
-    "move:forms": "mkdir -p dist/forms && cp ./obj/forms/*.pdf ./dist/forms",
-    "build": "npm run clean && npm run compile && npm run move"
+    "move:forms": "mkdir -p dist/forms && cp ./obj/forms/*.pdf ./dist/forms && cp ./resources/pdfs/* ./dist/forms",
+    "build": "npm run clean:dist && npm run compile && npm run move"
   },
   "keywords": [
     "master",
