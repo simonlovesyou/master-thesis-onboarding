@@ -39,6 +39,46 @@
 \usepackage{pifont}
 \usepackage[inline]{enumitem}
 
+% Borrowed from https://tex.stackexchange.com/questions/213889/image-placeholder-as-in-includegraphicsdraft-but-without-path-appearing
+\makeatletter
+\define@key{Gin}{noincl}[true]{%
+  \lowercase{\Gin@boolkey{#1}}{draft}%
+  \lowercase{\Gin@boolkey{#1}}{noincl}%
+}
+\newif\ifGin@noincl
+
+\patchcmd{\Gin@setfile}{\hb@xt@}{\noinc@box{#3}}{}{}
+
+\def\noinc@box#1#2#3{%
+  \ifGin@noincl
+    \do@noinc@box{#1}{#2}{#3}%
+  \else
+    \hb@xt@#2{#3}
+  \fi
+}
+
+\def\do@noinc@box#1#2#3{%
+  \hb@xt@\Gin@req@width{%
+    \vrule\hss
+    \vbox to \Gin@req@height{%
+      \hrule \@width \Gin@req@width
+      \vss
+      \edef\@tempa{#1}%
+      \expandafter\filename@parse\expandafter{\@tempa}%
+      \rlap{%
+        \kern3\p@
+        \parbox{\dimexpr\Gin@req@width-6\p@}{
+          \raggedright\footnotesize Placeholder image
+        }%
+      }%
+      \vss
+      \rlap{\kern3\p@ \tiny\ttfamily\filename@base.\filename@ext}%
+      \vss
+      \hrule}%
+    \hss\vrule}%
+}
+\makeatother
+
 \newcommand{\ignore}[1]{}
 
 	\title{User onboarding for mobile applications: A design framework}
