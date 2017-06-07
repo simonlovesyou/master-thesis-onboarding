@@ -4,3 +4,6 @@ obj/
 .tmp/*
 node_modules/
 npm-debug.log
+likert-graphs
+dist/
+.DS_Store

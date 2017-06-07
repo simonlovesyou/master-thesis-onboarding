@@ -13,24 +13,30 @@ The method of this study, as presented in the following sections, are based on \
 The theoretical framework is built in two phases: \textit{Theoretical background} and \textit{Best practice evaluation}.
 
 \begin{description}
-  \item [Theoretical background] Relevant theoretical material is gathered to explain the onboarding process defined by Bradth et al. \cite{Bradt2009} in an user experience research context, with the additional material about relevant UX challenges. The material gathered is retrieved through the Google Scholar search engine and the "Digitala Vetenskapliga Arkivet" (DiVA) portal. This material is complemented with eventual articles, blogs and videos. A review of the material gathered and the conclusion of it is presented in section \ref{sec:theoretical_background}.
-  \item [Best practice evaluation] The best practice evaluation is done through a competitive review \cite{Schade2013} of popular mobile applications to pinpoint the different kinds of methods used to onboard users. The apps analyzed are chosen to cover a large ground of different onboarding techniques and apps of different categories (e.g game, productivity, social). Competitive analysis is important to generate insight into the competitors' employed strategies, both past and present, and will help us give an informed basis to develop and establish strategy advantages to our competitors \cite{Wilson2010}. The review will focus on the technique used to onboard user and aspects identified in the Theoretical background. These analyses will be conducted in a similar manner to how the website "UserOnboard"\footnote{\url{http://www.useronboard.com}} perform their analyses, which is a similar method to \textit{cognitive walkthrough}. The walkthrough method consists of answering questions about each of the decision users have to make as they explore the interface. The questions should identify the users' goals, the ease of which they they can identify the consequences of their actions, and how easy it is for the users to evaluate whether they are making progress toward their goal \cite{Lewis1990}. A review of the analyses and the conclusions of it is presented in section \ref{sec:best_practice_evaluation}.
+  \item [Theoretical background] Relevant theoretical material is gathered to explain the onboarding process defined by Bradth et al. \cite{Bradt2009} in a user experience research context, with the additional material about relevant UX challenges. The material gathered is retrieved through the Google Scholar search engine and the "Digitala Vetenskapliga Arkivet" (DiVA) portal. A review of the material gathered is presented in Section \ref{sec:theoretical_background}.
+  \item [Best practice evaluation] Common onboarding techniques and their benefits and disadvantages are analyzed. A review of the analyses and the conclusions of it is presented in Section \ref{sec:best_practice_evaluation}.
 \end{description}
-% Coach marks
+
 The material gathered and the conclusion of the findings is presented in the chapter \ref{chap:theoretical_framework}.
 
 \section{Evaluation}
 \label{sec:evaluation}
-The evaluation and verification of the framework is performed in three phases, which are explained further in the following subsections. The first phase \begin{enumerate*}[label=(\(\arabic*\))]
-  \item is by designing a onboarding flow for the ICA Handla app with the aid of the framework
-  \item user test and analyze the onboarding process, make amendments to the framework as neccessary
+The evaluation and verification of the framework are performed in three phases, which are explained further in the following subsections. The first phase \begin{enumerate*}[label=(\(\arabic*\))]
+  \item is by analyzing the user interface of the conceptual mobileapp design with the aid of the framework, the second phase
+  \item \label{enum:prototype}is making changes to the design with the framework in an interactive prototype, and the last phase
+  \item \label{enum:usertest}is user test and analyze the onboarding process, make amendments to the framework as necessary
 \end{enumerate*}
 
+It is worth to note that when the conceptual mobileapp design is being analyzed it is done with no consideration of any planned functionality by company, and is only analyzed from a user onboarding perspective provided by the framework.
+
+Phase \ref{enum:prototype} and \ref{enum:usertest} is further explained in Section \ref{subsec:prototypes} below.
+
 \section{Prototypes}
+\label{subsec:prototypes}
 Design prototypes are developed with the aid of the framework. Prototypes are a working representation built to test design ideas, and are often tested by observing users carry out intended tasks with the interface \cite{Walker2002}.
 
 \subsection{Usability Testing}
-The usability tests are conducted in a lab setting, where the participants are asked to perform tasks with the ICA Handla app.
+The usability tests are conducted in a lab setting, where the participants are asked to perform tasks with the developed prototype of the mobileapp app.
 
 The tests are planned after these specific steps, as defined by \cite{Dumas1999}:
 
@@ -51,7 +57,7 @@ The steps have been categorized into \textit{goals}, \textit{participants}, \tex
 
 \subsubsection{Goals}
 \label{subsubsec:goals}
-The goals of the usability tests of ICA Handla we identify are \begin{enumerate*}[label=(\(\arabic*\))]
+The goals of the usability tests of mobileapp we identify are \begin{enumerate*}[label=(\(\arabic*\))]
   \item a general goal for the product,
   \item quantitative usability goals for the product,
   \item general concern for this test,
@@ -60,7 +66,7 @@ The goals of the usability tests of ICA Handla we identify are \begin{enumerate*
 
 \subsubsection{Participants}
 \label{subsubsec:participants}
-The participants are chosen from the target market of ICA Handla app, which have no prior usage of the ICA Handla app. This decision is made to more easily identify learnability issues with the interface as they use it for the first time. The identified characteristics of the test group follow the user profile template suggested by \cite{Dumas1999}:
+The participants are chosen from the target market of mobileapp app, which have no prior usage of the mobileapp app. This decision is made to more easily identify learnability issues with the interface as they use it for the first time. The identified characteristics of the test group follow the user profile template suggested by \cite{Dumas1999}:
 
 \begin{enumerate}
   \item General characterization of the user population
@@ -69,7 +75,7 @@ The participants are chosen from the target market of ICA Handla app, which have
   \item Which of the characteristics that you listed in \ref{enum:characteristics} will vary in the test and how will you define them?
 \end{enumerate}
 
-The profile of the participants are represented through \textit{personas} based on a survey about their cooking and grocery shopping habits and secondary internal information from past user research done by Doberman in collaboration with ICA. The final profile presented as Personas can be found in Section \ref{sec:participants}.
+The profile of the participants are represented through \textit{personas} based on a survey about their habits and secondary internal information from past user research done by Doberman in collaboration with company. The final profile presented as Personas can be found in Section \ref{sec:participants}.
 
 \subsubsection{Tasks}
 \label{subsubsec:tasks}
@@ -85,14 +91,25 @@ Since we cannot test every possible task users can do with the product, we have 
 For each identified task which is defined with the help of the developers and product owner, as suggested by \cite{Dumas1999}, we identify the time required for the task and resources needed. All tasks defined are detailed in a final list of tasks which can be found in Chapter \ref{chap:result}.
 
 \subsubsection{Scenarios}
-The tasks identified in section \ref{subsubsec:tasks} are formulated to the test participants as \textit{scenarios}. Scenarios describe the task in the user's --- not the product's --- words in an unambiguous way. A good scenario is directly linked to your tasks and concern, and gives the user's enough information to complete the task. The participants where asked to think out loud when performing the scenarios, and depending on the participants ability to do so the test leader might probe the user with questions about how they think and why/how they performed an action.
+The tasks identified in section \ref{subsubsec:tasks} are formulated to the test participants as \textit{scenarios}. Scenarios describe the task in the user's --- not the product's --- words in an unambiguous way. A good scenario is directly linked to your tasks and concern and gives the user's enough information to complete the task. The participants where asked to think out loud when performing the scenarios, and depending on the participants ability to do so the test leader might probe the user with questions about how they think and why/how they performed an action.
 
 \subsubsection{User test}
-The user tests are prepared before hand with a script for the test supervisor, a consent form, test location and a post-test questionnaire for the participants. The script contain common questions to ask the participants during the user test. A pilot test is carried out for practice and to identify any possible problems with the usability test.
+The user tests are prepared before hand with a script for the test supervisor, a consent form, test location and a post-test questionnaire for the participants. The script contains the following items for each scenario:
+
+\begin{description}
+  \item[Concern] The concern that is being examined for this particular scenario, formulated as a question.
+  \item[Test setup] A general description of the setup that is given to the test participant.
+  \item[Task description] A short description of the tasks the user has to carry out to complete the scenario.
+  \item[Scenario] The scenario description that is verbally given to the test participant.
+  \item[Post-scenario questions] Probing questions to ask the test participant of what they thought about the scenario.
+\end{description}
+
+A pilot test is carried out in order to identify flaws with the test setup, to practice the test procedure and to identify critical bugs in the prototype before the actual tests are carried out.
 
 \subsubsection{Measurements}
 \label{subsubsec:measurements}
-While performing the usability test we've collected both performance measures --- counts of actions and observed behaviors --- and subjective measures --- people's perceptions, opinions and judgements --- as \cite{Dumas1999} suggest.
-The performance measures are directly related to the concerns and usability goals that we define for this particular usability test, as \cite{Dumas1999} suggest. Performance measures are identified based on the test supervisors judgement.
+Dumas \cite{Dumas1999} suggest that the performance measures that we select should be directly related to the concerns and usability goals that we define for this particular usability test, as \cite{Dumas1999} suggest.
 
-For collecting subjective measures a post-test survey is conducted with the test participant, where the post-survey include questions about their perceived ease of learning the product, ease of doing a particular task etc.
+The performance measures for the usability test includes the subjective opinions of the test participants --- people's perceptions, opinions and judgments. They were documented by the test supervisor during the scenarios.
+
+For collecting quantitative measures, we measure the perceived ease of use and perceived usefulness pre- and post-test of the application, inspired by the work of Davis\cite{Davis1989} and his research into the technology acceptance model.

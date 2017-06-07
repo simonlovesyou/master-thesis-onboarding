@@ -1,7 +1,7 @@
 % THESIS TEMPLATE FOR LATEX
 % Pedher Johansson (pedher@cs.umu.se), january 2012
 %
-\NeedsTeXFormat{LaTeX2e} 
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{UmUThesis} [2012/01/19 Layout for Master/Bachelor Thesis Reports]
 
 % INCLUDED PACKAGES
@@ -10,7 +10,7 @@
 % If you got a latex distribution where one of them are not included,
 % either download it or remove it. If it is removed you may get
 % problems with some of the other stuff in the package, but it should
-% be save to comment out that row. 
+% be save to comment out that row.
 \RequirePackage{remreset}          % For internal use in the package.
 \RequirePackage{float}             % Adds functionality for floats.
 \RequirePackage{fancyhdr}          % Used for nice page headings.
@@ -61,16 +61,16 @@
 % PAGE SIZE
 % ---------
 \hoffset         -1in % reset offset to top left corner
-\voffset         -1in %       - " - 
-\textheight     231mm 
-\textwidth      140mm 
+\voffset         -1in %       - " -
+\textheight     231mm
+\textwidth      140mm
 \topmargin       12mm % Distance before the head
-\oddsidemargin   45mm % Good for two sided printing
+\oddsidemargin   25mm % Good for two sided printing
 \evensidemargin  25mm %       - " -
 \headheight      14mm
 \headsep         5mm  % Distance betwen the head and the text.
 \marginparwidth  15mm % You should not use margins.
-\marginparsep     7pt  
+\marginparsep     7pt
 \marginparpush   12pt
 
 
@@ -79,9 +79,9 @@
 % PACKAGE OPTIONS
 % ---------------
 
-% Swedish option. Use the package as 
-%   \usepackage[se]{umuthesis} 
-% if it is written in Swedish. 
+% Swedish option. Use the package as
+%   \usepackage[se]{umuthesis}
+% if it is written in Swedish.
 \DeclareOption{se}{
   % Text indentation and paragraph separation usualy differs between
   % text writing in Swedish and text in English. In Swedish texts (and
@@ -90,7 +90,7 @@
   % the following commands. If you like to have this style even in
   % English texts, copy these two line and put the in the document.
   \setlength{\parindent}{0pt}  % Text indentation.
-  \setlength{\parskip}{6pt}  % Space between paragraphs 
+  \setlength{\parskip}{6pt}  % Space between paragraphs
 
   % French spacing makes non-english text more readable.
   \frenchspacing
@@ -120,7 +120,7 @@
 \DeclareOption{noindent}{
   % If you prefer not to have indentation of paragraphs
   \setlength{\parindent}{0pt}  % Text indentation.
-  \setlength{\parskip}{6pt}  % Space between paragraphs 
+  \setlength{\parskip}{6pt}  % Space between paragraphs
 }
 
 \ProcessOptions
@@ -135,14 +135,14 @@
 % subsubsections appear in the table of contents.
 \setcounter{tocdepth}{2}
 
-% This does not make the text stretch to absolutely fill each page. 
+% This does not make the text stretch to absolutely fill each page.
 \raggedbottom
 
 
 % PAGE HEADERS
 % ------------
 
-\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\headrulewidth}{0pt}
 
 \fancyhead[LE,RO]{\thepage(\pageref{LastPage})}
 \fancyheadoffset[LE,RO]{12mm}
@@ -169,14 +169,14 @@
       \fi
       {\interlinepenalty\@M
       \huge\bfseries #1\par}
-   
+
     \nobreak
     \vskip 40\p@}
   \renewcommand\@makeschapterhead[1]{%
     \vspace*{20\p@}%
       {\interlinepenalty\@M
       \noindent\huge\bfseries #1\par}
-   
+
     \nobreak
     \vskip 40\p@
   }
@@ -205,7 +205,7 @@
     \if\@empty\@education\else%
       \mbox{\noindent\small{\@education}}\normalfont\fi
   \end{raggedright}%
-   
+
   \setcounter{footnote}{0}%
   \global\let\thanks\relax
   \global\let\maketitle\relax
@@ -233,7 +233,7 @@
                                 % indentation of the paragraph
                                 % following the section is surpressed).
   {0.5\baselineskip}%           % Distance after the header.
-  {\normalfont\large\bfseries}} % The font used for the header. Add 
+  {\normalfont\large\bfseries}} % The font used for the header. Add
                                 %  if you like a sans-serif font.
 
 % Redefines the \subsection command
@@ -286,16 +286,16 @@
 \renewcommand\thetable{\mbox{\@arabic\c@table}}
 \renewcommand\thefigure{\mbox{\@arabic\c@figure}}
 
-% This makes (in my opinion) the table floats look nicer. 
+% This makes (in my opinion) the table floats look nicer.
 \renewcommand\floatc@ruled[2]{{\@fs@cfont #1} #2\par}
 \renewcommand\fs@ruled{\def\@fs@cfont{\bfseries}\let\@fs@capt\floatc@ruled
   \def\@fs@pre{\hrule height1.5pt depth0pt \kern4pt}%
   \def\@fs@post{\kern2pt\hrule height0.8pt\relax}%
   \def\@fs@mid{\kern2pt\hrule height0.8pt\kern2pt}%
-  \let\@fs@iftopcapt\iftrue} 
+  \let\@fs@iftopcapt\iftrue}
 \restylefloat{table}
 
 % Captions
 \renewcommand{\captionlabelfont}{\bfseries} % Font used for the name
-\renewcommand{\captionfont}{\small}         % Font size 
-\setlength{\captionmargin}{0.05\linewidth}  
+\renewcommand{\captionfont}{\small}         % Font size
+\setlength{\captionmargin}{0.05\linewidth}

@@ -1,0 +1,193 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{forloop}% used for \Qrating and \Qlines
+\usepackage{enumerate}
+\usepackage{enumitem}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+%% \Qline = Again, this is very simple. It helps setting the line
+%% thickness globally. Used both by direct call and by \Qlines.
+\newcommand{\Qline}[1]{\noindent\rule{#1}{0.5pt}}
+
+%% \Qlines = Insert NUM lines with width=\linewith. You can change the
+%% \vskip value to adjust the spacing.
+\newcounter{ql}
+\newcommand{\Qlines}[1]{\forloop{ql}{0}{\value{ql}<#1}{\vskip0.5em\Qline{\linewidth}}}
+
+\begin{document}
+
+{\LARGE Task Scenarios}\\ [.5cm]
+
+\section{Pre scenarios}
+The test is to be conducted in the following steps
+\begin{enumerate}
+  \item Ask them questions from the pre-interview survey
+  \item Inform the test participant of the mobileapp
+  \item Let them fill out the PEU-PU survey while you setup the test environment
+  \item Let them perform scenarios using the prototype
+  \item After each scenario, ask them questions from the Post-scenario questionnaire
+  \item Ask them questions from post-test survey and PEU-PU survey
+\end{enumerate}
+
+\clearpage
+
+\section{Scenarios}
+
+\bgroup
+% Stretch the tabulars vertically
+\def\arraystretch{1.5} % 1 is the default
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} & \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} & \vspace{-3.7mm} \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+  \item Favourite a store
+  \item Find information about a store
+  \end{itemize}\vspace{-5mm} \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} & Find where a product is located in a store \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} &
+  \vspace{-3.7mm} \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Create a shopping list
+    \item Add groceries to a grocery list
+    \item Share a grocery list
+  \end{itemize} \vspace{-5mm} \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{9} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} & \vspace{-3.7mm} \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Find personal offers
+    \item Add account using either password or BankID.
+  \end{itemize}\vspace*{-5mm} \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} & \vspace{-3.7mm} \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Add personal offers to a grocery list
+    \item Select a product
+  \end{itemize} \vspace{-5mm}\\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\clearpage
+
+\subsection{}
+\begin{tabular}{lp{8.5cm}}
+  \hline
+  \textbf{Concern:} & \\
+  \textbf{Test setup:} & \\
+  \textbf{Task description:} &
+  \vspace{-3.7mm} \begin{itemize}[noitemsep,leftmargin=*,topsep=0pt]
+    \item Check an item in the grocery list as done
+    \item Check an entire section in the grocery list as done
+    \item Uncheck an item in the grocery list
+    \item Find more information about a product
+  \end{itemize}\vspace*{-5mm} \\
+  \textbf{Scenario:} & \\
+  \textbf{Post-scenario questions:} & \\
+  \hline
+\end{tabular}
+
+\vskip0.5em
+\begin{changemargin}{0cm}{0cm}
+\textbf{Notes:}
+\end{changemargin}
+\Qlines{10} \vskip0em
+
+\egroup
+\end{document}

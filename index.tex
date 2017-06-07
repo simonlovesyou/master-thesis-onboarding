@@ -1,5 +1,4 @@
 \documentclass[a4paper, 11pt, twoside]{report}
-
 %\usepackage{config/UmUThesis}           % Standard English
 \usepackage[noindent]{config/UmUThesis}  % Non indented English
 %\usepackage[se]{config/UmUThesis}       % Swedish
@@ -16,6 +15,27 @@
 \usepackage{csquotes}
 \usepackage[toc,page]{appendix}
 \usepackage{varwidth}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usetikzlibrary{patterns}
+
+\usepackage{environ}
+\makeatletter
+\newsavebox{\measure@tikzpicture}
+\NewEnviron{scaletikzpicturetowidth}[1]{%
+  \def\tikz@width{#1}%
+  \def\tikzscale{1}\begin{lrbox}{\measure@tikzpicture}%
+  \BODY
+  \end{lrbox}%
+  \pgfmathparse{#1/\wd\measure@tikzpicture}%
+  \edef\tikzscale{\pgfmathresult}%
+  \BODY
+}
+\makeatother
+
 \DeclareCaptionFormat{multiline}{%
   % #1: label (e.g. "Table 1")
   % #2: separator (e.g. ": ")
@@ -40,6 +60,7 @@
 \usepackage[inline]{enumitem}
 
 % Borrowed from https://tex.stackexchange.com/questions/213889/image-placeholder-as-in-includegraphicsdraft-but-without-path-appearing
+% Eventually remove!
 \makeatletter
 \define@key{Gin}{noincl}[true]{%
   \lowercase{\Gin@boolkey{#1}}{draft}%
@@ -80,8 +101,9 @@
 \makeatother
 
 \newcommand{\ignore}[1]{}
+\newcommand{\todo}[1]{}
 
-	\title{User onboarding for mobile applications: A design framework}
+	\title{Onboarding users to mobile applications: A design framework}
 	\author{Simon Johansson}
 	\supervisor{Staffan Grundberg}
 	\supervisore{}
@@ -96,65 +118,11 @@
 \begin{document}
 \maketitle
 
-%%-----------------------------------------------------------------------------------------------------------------
-%%----------ACKNOWLEDGEMENTS---------------------------------------------------------------------
-%%-----------------------------------------------------------------------------------------------------------------
+\include{chapters/Acknowledgements}
 
-\begin{center}
-\section*{Acknowledgements}
-Thanks mum and dad \ding{164}
-\end{center}
-
-\clearpage
-
-%%-----------------------------------------------------------------------------------------------------------------
-%%------------ABSTRACT-------------------------------------------------------------------------------------
-%%-----------------------------------------------------------------------------------------------------------------
-
-\begin{center}
-\section*{Abstract}
-Abstract, abstract, abstract...
-% WRITE IN PRESENT TENSE!
-
-%%% 1. Explanation of the title of your thesis
-% The first function of the abstract is to further explain the title of your thesis. This allows readers of tour thesis to better determine if your thesis is interesting enough for them to read. A well-written abstract can encourage more people to consider your thesis important and, thus, to intend to read it.
-
-%%% 2. Short version of your thesis
-% The abstract serves as a short version for readers who don?t have the time to read the complete thesis. Often, managers and scientists read only the abstract and not the entire piece.
-
-%%% 3. Overview of your thesis
-% The abstract?s function is to serve as an overview of what readers can expect. This makes it easier for the reader to understand and to place in context the material in the thesis. A well-written abstract ensures that difficult material in your thesis is better understood.
-
-% - What is the problem? Indicate the objective, problem statement and research questions of your thesis. If you have used hypotheses in your thesis, indicate them here.
-% - What has been done? Briefly explain the method and approach of your research
-% - What has been discovered? Provide a summary of the most important results and your conclusion
-% - What do your findings mean? Summarize the key points from the discussion and present your recommendations
-
-%% Understand your abstract without going through the rest of your thesis.
-%% Include references when you use a source. You often do not use any references because you mainly write about your own findings and research
-
-%% --------------------------- CHECKLIST -------------------------------------
-% - Maximum of A4 sheet of paper
-% - Placed after the preface and before the table of contents
-% - Written in present tense
-% - The objective is specified
-% - The problem statement is given
-% - The research questions or hypotheses are included
-% - The methodology and approach of your research are briefly explained
-% - A summary of the most important results are given
-% - The conclusion is given (the answer to your research question / problem statement).
-% - The results have been discussed and explained (discussion).
-% - Suggestions for follow-up research are presented
-% - Any recommendations are concisely discussed
-% - The abstract clarifies what the thesis is about
-
-\end{center}
+\include{chapters/Abstract}
 
 \setcounter{page}{1}
-
-%%-----------------------------------------------------------------------------------------------------------------
-%%----------TABLE OF CONTENTS----------------------------------------------------------------------
-%%-----------------------------------------------------------------------------------------------------------------
 
 \tableofcontents
 
@@ -170,10 +138,8 @@ Abstract, abstract, abstract...
 %% The theoretical framework will present material for us to understand the resulting framework, which is also presented in this chapter, which also contain the results from the best practice analysis.
 \include{chapters/Theoretical_framework}
 
-%% The best practice evaluation will present 3 different applications and an evaluation of its interface and onboarding experience
-\include{chapters/Best_practice_evalution}
-
 \include{chapters/Framework}
+
 %% The result chapter will contain the results from the expert interviews, any eventual framework remarks, user tests, personas and prototypes.
 \include{chapters/Result}
 
@@ -183,14 +149,6 @@ Abstract, abstract, abstract...
 %% The chapter Conclusion will conclude the study.
 \include{chapters/Conclusion}
 
-
-
-%%-----------------------------------------------------------------------------------------------------------------
-%%----------------APPENDIX----------------------------------------------------------------------------------
-%%-----------------------------------------------------------------------------------------------------------------
-
-\clearpage
-
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliographystyle{unsrt}
 
@@ -198,8 +156,20 @@ Abstract, abstract, abstract...
 
 \appendix
 \setboolean{@twoside}{false}
-\includepdf[pages={1-},scale=0.8,offset=75 -75,pagecommand={\thispagestyle{fancy}},frame]{obj/forms/evaluation.pdf}
-\includepdf[pages={1-},scale=0.8,offset=75 -75,pagecommand={\thispagestyle{fancy}},frame]{obj/forms/contract.pdf}
-\includepdf[pages={1-},scale=0.8,offset=75 -75,pagecommand={\thispagestyle{fancy}},frame]{resources/pdfs/survey.pdf}
+\chapter{Contract}
+\includepdf[pages={1-},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{Consent Form}},frame]{obj/forms/contract.pdf}
+
+\includepdf[pages={1},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{Survey}},frame]{resources/pdfs/survey.pdf}
+\includepdf[pages={2-},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}},frame]{resources/pdfs/survey.pdf}
+
+\includepdf[pages={1},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{Personas}},frame]{resources/pdfs/personas.pdf}
+\includepdf[pages={2-},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}},frame]{resources/pdfs/personas.pdf}
+
+\includepdf[pages={1},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{Pre-interview}},frame]{obj/forms/pre-interview.pdf}
+
+\includepdf[pages={1},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{Scenarios}},frame]{obj/forms/scenarios.pdf}
+\includepdf[pages={2-},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}},frame]{obj/forms/scenarios.pdf}
+
+\includepdf[pages={1},scale=0.7,offset=75 -4.5cm,pagecommand={\thispagestyle{fancy}\chapter{PEU-PU Survey}},frame]{obj/forms/peu-pu.pdf}
 
 \end{document}

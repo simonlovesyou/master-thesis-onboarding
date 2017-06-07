@@ -1,4 +1,0 @@
-How should we tackle this literature review? I think I've managed to define the general user onboarding process as Service design -> Value proposition -> Registration -> Time to productivity... This includes a lot of UX fields, marketing and design. What sources should we look at? What about UserOnboard.com and their book? What is the definition of User onboarding? How much should we include UX practices for mobile development, or at all? My thinking is that if we
-develop an experience for users on a mobile platform, we have to make sure that their interaction with the platform is good enough to support the higher level of abstraction and ideas with onboarding. 
-
-What should we include in the onboarding process? Should we include the first exposure to the application or just when the user has downloaded the application and uses it for the first time? How has publications defined onboarding, and what processes do they include?
